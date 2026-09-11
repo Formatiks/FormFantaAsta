@@ -5,6 +5,7 @@
   const SESSION_KEY = "fantasta.session.v1";
   const ROOM_EVENT = "fantasta:room-change";
   const ROOM_CODE_CHARACTERS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  const BID_DURATION_MS = 7000;
   const ROLE_NAMES = {
     P: "Portieri",
     D: "Difensori",
@@ -200,7 +201,7 @@
       }, rosterLimits),
       participants: [host],
       currentPlayer: null,
-      currentBid: { amount: 0, bidderId: null },
+      currentBid: { amount: 0, bidderId: null, expiresAt: null },
       assignedPlayerIds: [],
       auctionLog: []
     };
@@ -295,7 +296,7 @@
         throw new Error("Questo giocatore è già stato assegnato.");
       }
       room.currentPlayer = clone(player);
-      room.currentBid = { amount: Math.max(1, Number(player.quotazione) || 1), bidderId: null };
+      room.currentBid = { amount: 0, bidderId: null, expiresAt: null };
       room.auctionLog.unshift({ type: "draw", playerName: player.nome, at: new Date().toISOString() });
       room.auctionLog = room.auctionLog.slice(0, 30);
       return room;
@@ -324,7 +325,18 @@
         throw new Error("Non hai abbastanza crediti.");
       }
 
-      room.currentBid = { amount: bidAmount, bidderId: participantId };
+      const role = room.currentPlayer.ruolo;
+      const limitKey = ROLE_LIMIT_KEYS[role];
+      const roleLimit = room.settings[limitKey];
+      if (!participant.roster[role] || participant.roster[role].length >= roleLimit) {
+        throw new Error(`Hai già completato il reparto ${ROLE_NAMES[role].toLowerCase()}.`);
+      }
+
+      room.currentBid = {
+        amount: bidAmount,
+        bidderId: participantId,
+        expiresAt: Date.now() + BID_DURATION_MS
+      };
       room.auctionLog.unshift({
         type: "bid",
         participantName: participant.name,
@@ -372,7 +384,7 @@
       });
       room.auctionLog = room.auctionLog.slice(0, 30);
       room.currentPlayer = null;
-      room.currentBid = { amount: 0, bidderId: null };
+      room.currentBid = { amount: 0, bidderId: null, expiresAt: null };
       return room;
     });
   }
@@ -388,7 +400,7 @@
         });
       }
       room.currentPlayer = null;
-      room.currentBid = { amount: 0, bidderId: null };
+      room.currentBid = { amount: 0, bidderId: null, expiresAt: null };
       room.auctionLog = room.auctionLog.slice(0, 30);
       return room;
     });
@@ -480,6 +492,7 @@
 
   window.Fantasta = {
     ROOM_EVENT: ROOM_EVENT,
+    BID_DURATION_MS: BID_DURATION_MS,
     ROLE_NAMES: ROLE_NAMES,
     ROLE_LIMIT_KEYS: ROLE_LIMIT_KEYS,
     normalizeCode: normalizeCode,

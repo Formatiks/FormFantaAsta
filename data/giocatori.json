@@ -1,122 +1,5357 @@
 [
   {
-    "id": 1,
-    "nome": "Elia Moretti",
+    "id": 5585,
+    "nome": "Malen",
+    "squadra": "Roma",
+    "ruolo": "A",
+    "quotazione": 37,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5585.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/malen/5585"
+  },
+  {
+    "id": 2764,
+    "nome": "Martinez L.",
     "squadra": "Inter",
     "ruolo": "A",
     "quotazione": 35,
-    "foto": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=85"
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2764.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/martinez-l/2764"
   },
   {
-    "id": 2,
-    "nome": "Tommaso Riva",
+    "id": 254,
+    "nome": "Dimarco",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 31,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/254.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/dimarco/254"
+  },
+  {
+    "id": 6875,
+    "nome": "Paz N.",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 30,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6875.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/paz-n/6875"
+  },
+  {
+    "id": 6052,
+    "nome": "Hojlund",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 29,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6052.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/hojlund/6052"
+  },
+  {
+    "id": 2194,
+    "nome": "Calhanoglu",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 28,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2194.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/calhanoglu/2194"
+  },
+  {
+    "id": 4871,
+    "nome": "Thuram",
+    "squadra": "Inter",
+    "ruolo": "A",
+    "quotazione": 28,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4871.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/thuram/4871"
+  },
+  {
+    "id": 6397,
+    "nome": "Ramos G.",
+    "squadra": "Milan",
+    "ruolo": "A",
+    "quotazione": 27,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6397.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/ramos-g/6397"
+  },
+  {
+    "id": 4777,
+    "nome": "McTominay",
+    "squadra": "Napoli",
+    "ruolo": "C",
+    "quotazione": 26,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4777.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/mctominay/4777"
+  },
+  {
+    "id": 2167,
+    "nome": "Orsolini",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 25,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2167.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/orsolini/2167"
+  },
+  {
+    "id": 2097,
+    "nome": "Kean",
+    "squadra": "Como",
+    "ruolo": "A",
+    "quotazione": 25,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2097.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/kean/2097"
+  },
+  {
+    "id": 5951,
+    "nome": "Kolo Muani",
+    "squadra": "Juventus",
+    "ruolo": "A",
+    "quotazione": 24,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5951.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/kolo-muani/5951"
+  },
+  {
+    "id": 2423,
+    "nome": "Pulisic",
     "squadra": "Milan",
     "ruolo": "C",
-    "quotazione": 24,
-    "foto": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=1200&q=85"
+    "quotazione": 23,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2423.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/pulisic/2423"
   },
   {
-    "id": 3,
-    "nome": "Nicolò Serra",
+    "id": 6752,
+    "nome": "Woltemade",
     "squadra": "Juventus",
+    "ruolo": "A",
+    "quotazione": 23,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6752.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/woltemade/6752"
+  },
+  {
+    "id": 2379,
+    "nome": "Rabiot",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 22,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2379.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/rabiot/2379"
+  },
+  {
+    "id": 7126,
+    "nome": "Baturina",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 21,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7126.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/baturina/7126"
+  },
+  {
+    "id": 7017,
+    "nome": "Douvikas",
+    "squadra": "Como",
+    "ruolo": "A",
+    "quotazione": 21,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7017.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/douvikas/7017"
+  },
+  {
+    "id": 6434,
+    "nome": "Yildiz",
+    "squadra": "Juventus",
+    "ruolo": "A",
+    "quotazione": 21,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6434.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/yildiz/6434"
+  },
+  {
+    "id": 7556,
+    "nome": "Mora",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 20,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7556.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/mora/7556"
+  },
+  {
+    "id": 2137,
+    "nome": "Scamacca",
+    "squadra": "Atalanta",
+    "ruolo": "A",
+    "quotazione": 19,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2137.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/scamacca/2137"
+  },
+  {
+    "id": 531,
+    "nome": "Berardi",
+    "squadra": "Sassuolo",
+    "ruolo": "A",
+    "quotazione": 19,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/531.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/berardi/531"
+  },
+  {
+    "id": 5637,
+    "nome": "Davis K.",
+    "squadra": "Udinese",
+    "ruolo": "A",
+    "quotazione": 19,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5637.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/davis-k/5637"
+  },
+  {
+    "id": 6435,
+    "nome": "Krstovic",
+    "squadra": "Atalanta",
+    "ruolo": "A",
+    "quotazione": 18,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6435.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/krstovic/6435"
+  },
+  {
+    "id": 5559,
+    "nome": "Da Cunha",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 18,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5559.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/da-cunha/5559"
+  },
+  {
+    "id": 4510,
+    "nome": "Leao",
+    "squadra": "Milan",
+    "ruolo": "A",
+    "quotazione": 18,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4510.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/leao/4510"
+  },
+  {
+    "id": 5841,
+    "nome": "Svilar",
+    "squadra": "Roma",
+    "ruolo": "P",
+    "quotazione": 18,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5841.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/svilar/5841"
+  },
+  {
+    "id": 7181,
+    "nome": "Wesley",
+    "squadra": "Roma",
     "ruolo": "D",
     "quotazione": 18,
-    "foto": "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=1200&q=85"
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7181.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/wesley/7181"
+  },
+  {
+    "id": 4998,
+    "nome": "Molina N.",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 18,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4998.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/molina-n/4998"
+  },
+  {
+    "id": 4431,
+    "nome": "Carnesecchi",
+    "squadra": "Atalanta",
+    "ruolo": "P",
+    "quotazione": 17,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4431.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/carnesecchi/4431"
+  },
+  {
+    "id": 5995,
+    "nome": "De Ketelaere",
+    "squadra": "Atalanta",
+    "ruolo": "A",
+    "quotazione": 17,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5995.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/de-ketelaere/5995"
+  },
+  {
+    "id": 5116,
+    "nome": "Martinez Jo.",
+    "squadra": "Inter",
+    "ruolo": "P",
+    "quotazione": 17,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5116.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/martinez-jo/5116"
+  },
+  {
+    "id": 1870,
+    "nome": "Barella",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 17,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/1870.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/barella/1870"
+  },
+  {
+    "id": 7071,
+    "nome": "Esposito F.P.",
+    "squadra": "Inter",
+    "ruolo": "A",
+    "quotazione": 17,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7071.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/esposito-f-p/7071"
+  },
+  {
+    "id": 2517,
+    "nome": "De Bruyne",
+    "squadra": "Napoli",
+    "ruolo": "C",
+    "quotazione": 17,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2517.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/de-bruyne/2517"
+  },
+  {
+    "id": 2766,
+    "nome": "Zaniolo",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 17,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2766.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/zaniolo/2766"
+  },
+  {
+    "id": 6675,
+    "nome": "Dovbyk",
+    "squadra": "Bologna",
+    "ruolo": "A",
+    "quotazione": 16,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6675.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/dovbyk/6675"
+  },
+  {
+    "id": 2788,
+    "nome": "Bremer",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 16,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2788.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/bremer/2788"
+  },
+  {
+    "id": 4973,
+    "nome": "McKennie",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 16,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4973.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/mckennie/4973"
+  },
+  {
+    "id": 632,
+    "nome": "Zaccagni",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 16,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/632.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/zaccagni/632"
+  },
+  {
+    "id": 309,
+    "nome": "Dybala",
+    "squadra": "Roma",
+    "ruolo": "A",
+    "quotazione": 16,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/309.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/dybala/309"
+  },
+  {
+    "id": 4964,
+    "nome": "Vicario",
+    "squadra": "Juventus",
+    "ruolo": "P",
+    "quotazione": 16,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4964.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/vicario/4964"
+  },
+  {
+    "id": 6966,
+    "nome": "Butez",
+    "squadra": "Como",
+    "ruolo": "P",
+    "quotazione": 15,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6966.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/butez/6966"
+  },
+  {
+    "id": 6908,
+    "nome": "Atta",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 15,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6908.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/atta/6908"
+  },
+  {
+    "id": 4159,
+    "nome": "Akanji",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 15,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4159.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/akanji/4159"
+  },
+  {
+    "id": 4312,
+    "nome": "Maignan",
+    "squadra": "Milan",
+    "ruolo": "P",
+    "quotazione": 15,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4312.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/maignan/4312"
+  },
+  {
+    "id": 2296,
+    "nome": "Mancini",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 15,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2296.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/mancini/2296"
+  },
+  {
+    "id": 5734,
+    "nome": "Soulè",
+    "squadra": "Roma",
+    "ruolo": "A",
+    "quotazione": 15,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5734.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/soulè/5734"
+  },
+  {
+    "id": 6060,
+    "nome": "Laurientè",
+    "squadra": "Sassuolo",
+    "ruolo": "A",
+    "quotazione": 15,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6060.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/laurientè/6060"
+  },
+  {
+    "id": 6967,
+    "nome": "Diao",
+    "squadra": "Como",
+    "ruolo": "A",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6967.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/diao/6967"
+  },
+  {
+    "id": 2120,
+    "nome": "Bastoni",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2120.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/bastoni/2120"
+  },
+  {
+    "id": 4976,
+    "nome": "Kalulu",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4976.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/kalulu/4976"
+  },
+  {
+    "id": 5022,
+    "nome": "Pavlovic",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5022.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/pavlovic/5022"
+  },
+  {
+    "id": 4409,
+    "nome": "Rrahmani",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4409.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/rrahmani/4409"
+  },
+  {
+    "id": 7351,
+    "nome": "Santos A.",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7351.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/santos-a/7351"
+  },
+  {
+    "id": 7023,
+    "nome": "Pellegrino M.",
+    "squadra": "Fiorentina",
+    "ruolo": "A",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7023.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/pellegrino-m/7023"
+  },
+  {
+    "id": 6572,
+    "nome": "Castro S.",
+    "squadra": "Roma",
+    "ruolo": "A",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6572.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/castro-s/6572"
+  },
+  {
+    "id": 2061,
+    "nome": "Simeone",
+    "squadra": "Torino",
+    "ruolo": "A",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2061.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/simeone/2061"
+  },
+  {
+    "id": 5694,
+    "nome": "Beto",
+    "squadra": "Fiorentina",
+    "ruolo": "A",
+    "quotazione": 14,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5694.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/beto/5694"
+  },
+  {
+    "id": 5792,
+    "nome": "Ederson D.S.",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5792.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/ederson-d-s/5792"
+  },
+  {
+    "id": 5119,
+    "nome": "Samardzic",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5119.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/samardzic/5119"
+  },
+  {
+    "id": 4371,
+    "nome": "Raspadori",
+    "squadra": "Atalanta",
+    "ruolo": "A",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4371.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/raspadori/4371"
+  },
+  {
+    "id": 5800,
+    "nome": "Gudmundsson A.",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5800.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/gudmundsson-a/5800"
+  },
+  {
+    "id": 6217,
+    "nome": "Bisseck",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6217.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/bisseck/6217"
+  },
+  {
+    "id": 6884,
+    "nome": "Conceicao",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6884.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/conceicao/6884"
+  },
+  {
+    "id": 7314,
+    "nome": "Taylor K.",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7314.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/taylor-k/7314"
+  },
+  {
+    "id": 5833,
+    "nome": "Gila",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5833.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/gila/5833"
+  },
+  {
+    "id": 4728,
+    "nome": "Nkunku",
+    "squadra": "Milan",
+    "ruolo": "A",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4728.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/nkunku/4728"
+  },
+  {
+    "id": 5687,
+    "nome": "Vlasic",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5687.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/vlasic/5687"
+  },
+  {
+    "id": 6956,
+    "nome": "Solet",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6956.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/solet/6956"
+  },
+  {
+    "id": 4179,
+    "nome": "Gonzalez N.",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 13,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4179.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/gonzalez-n/4179"
+  },
+  {
+    "id": 4463,
+    "nome": "Esposito Se.",
+    "squadra": "Sassuolo",
+    "ruolo": "A",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4463.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/esposito-se/4463"
+  },
+  {
+    "id": 2514,
+    "nome": "Stones",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2514.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/stones/2514"
+  },
+  {
+    "id": 152,
+    "nome": "Zielinski",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/152.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/zielinski/152"
+  },
+  {
+    "id": 2606,
+    "nome": "Modric",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2606.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/modric/2606"
+  },
+  {
+    "id": 2816,
+    "nome": "Di Lorenzo",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2816.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/di-lorenzo/2816"
+  },
+  {
+    "id": 4807,
+    "nome": "Hermoso",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4807.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/hermoso/4807"
+  },
+  {
+    "id": 4317,
+    "nome": "N'Dicka",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4317.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/n-dicka/4317"
+  },
+  {
+    "id": 2038,
+    "nome": "Pinamonti",
+    "squadra": "Lazio",
+    "ruolo": "A",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2038.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/pinamonti/2038"
+  },
+  {
+    "id": 6646,
+    "nome": "Adams C.",
+    "squadra": "Torino",
+    "ruolo": "A",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6646.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/adams-c/6646"
+  },
+  {
+    "id": 6684,
+    "nome": "Ekkelenkamp",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6684.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/ekkelenkamp/6684"
+  },
+  {
+    "id": 7547,
+    "nome": "Kevin Carlos",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7547.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/kevin-carlos/7547"
+  },
+  {
+    "id": 5172,
+    "nome": "Jones C.",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5172.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/jones-c/5172"
+  },
+  {
+    "id": 1850,
+    "nome": "Kessiè",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/1850.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/kessiè/1850"
+  },
+  {
+    "id": 7625,
+    "nome": "Goncalves P.",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 12,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7625.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/goncalves-p/7625"
+  },
+  {
+    "id": 5526,
+    "nome": "Scalvini",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5526.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/scalvini/5526"
+  },
+  {
+    "id": 4360,
+    "nome": "Caprile",
+    "squadra": "Cagliari",
+    "ruolo": "P",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4360.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/caprile/4360"
+  },
+  {
+    "id": 6151,
+    "nome": "Perrone",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6151.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/perrone/6151"
+  },
+  {
+    "id": 7129,
+    "nome": "Rodriguez Je.",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7129.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/rodriguez-je/7129"
+  },
+  {
+    "id": 5436,
+    "nome": "Raimondo",
+    "squadra": "Frosinone",
+    "ruolo": "A",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5436.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/raimondo/5436"
+  },
+  {
+    "id": 5823,
+    "nome": "Baldanzi",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5823.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/baldanzi/5823"
+  },
+  {
+    "id": 4923,
+    "nome": "Colombo",
+    "squadra": "Genoa",
+    "ruolo": "A",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4923.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/colombo/4923"
+  },
+  {
+    "id": 2848,
+    "nome": "Frattesi",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2848.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/frattesi/2848"
+  },
+  {
+    "id": 7436,
+    "nome": "Alajbegovic",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7436.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/alajbegovic/7436"
+  },
+  {
+    "id": 6482,
+    "nome": "Mandas",
+    "squadra": "Lazio",
+    "ruolo": "P",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6482.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/mandas/6482"
+  },
+  {
+    "id": 4892,
+    "nome": "Saelemaekers",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4892.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/saelemaekers/4892"
+  },
+  {
+    "id": 572,
+    "nome": "Meret",
+    "squadra": "Napoli",
+    "ruolo": "P",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/572.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/meret/572"
+  },
+  {
+    "id": 7484,
+    "nome": "Adams A.",
+    "squadra": "Venezia",
+    "ruolo": "A",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7484.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/adams-a/7484"
+  },
+  {
+    "id": 7078,
+    "nome": "Mastantuono",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7078.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/mastantuono/7078"
+  },
+  {
+    "id": 6229,
+    "nome": "Tourè E.",
+    "squadra": "Parma",
+    "ruolo": "A",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6229.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/tourè-e/6229"
+  },
+  {
+    "id": 5982,
+    "nome": "Spence",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5982.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/spence/5982"
+  },
+  {
+    "id": 6372,
+    "nome": "Moreira",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 11,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6372.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/moreira/6372"
+  },
+  {
+    "id": 133,
+    "nome": "Skorupski",
+    "squadra": "Bologna",
+    "ruolo": "P",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/133.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/skorupski/133"
+  },
+  {
+    "id": 184,
+    "nome": "Bernardeschi",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/184.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/bernardeschi/184"
+  },
+  {
+    "id": 6844,
+    "nome": "Rowe",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6844.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/rowe/6844"
+  },
+  {
+    "id": 6869,
+    "nome": "Ramon",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6869.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/ramon/6869"
+  },
+  {
+    "id": 2521,
+    "nome": "De Gea",
+    "squadra": "Fiorentina",
+    "ruolo": "P",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2521.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/de-gea/2521"
+  },
+  {
+    "id": 1933,
+    "nome": "Mandragora",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/1933.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/mandragora/1933"
+  },
+  {
+    "id": 5750,
+    "nome": "Ostigard",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5750.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/ostigard/5750"
+  },
+  {
+    "id": 5672,
+    "nome": "Dia",
+    "squadra": "Lazio",
+    "ruolo": "A",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5672.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/dia/5672"
+  },
+  {
+    "id": 4220,
+    "nome": "Zambo Anguissa",
+    "squadra": "Napoli",
+    "ruolo": "C",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4220.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/zambo-anguissa/4220"
+  },
+  {
+    "id": 536,
+    "nome": "Politano",
+    "squadra": "Napoli",
+    "ruolo": "C",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/536.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/politano/536"
+  },
+  {
+    "id": 2531,
+    "nome": "Lukaku",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2531.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/lukaku/2531"
+  },
+  {
+    "id": 5589,
+    "nome": "Konè M.",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5589.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/konè-m/5589"
+  },
+  {
+    "id": 5844,
+    "nome": "Thorstvedt",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5844.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/thorstvedt/5844"
+  },
+  {
+    "id": 7347,
+    "nome": "Bowie",
+    "squadra": "Sassuolo",
+    "ruolo": "A",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7347.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/bowie/7347"
+  },
+  {
+    "id": 5555,
+    "nome": "Kamara H.",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5555.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/kamara-h/5555"
+  },
+  {
+    "id": 6904,
+    "nome": "Yeboah J.",
+    "squadra": "Venezia",
+    "ruolo": "A",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6904.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/yeboah-j/6904"
+  },
+  {
+    "id": 5641,
+    "nome": "Chalobah T.",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5641.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/chalobah-t/5641"
+  },
+  {
+    "id": 7554,
+    "nome": "Romero D.",
+    "squadra": "Parma",
+    "ruolo": "A",
+    "quotazione": 10,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7554.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/romero-d/7554"
+  },
+  {
+    "id": 4734,
+    "nome": "Miranda J.",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4734.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/miranda-j/4734"
+  },
+  {
+    "id": 5885,
+    "nome": "Dodò",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5885.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/dodò/5885"
+  },
+  {
+    "id": 4359,
+    "nome": "Piccoli",
+    "squadra": "Bologna",
+    "ruolo": "A",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4359.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/piccoli/4359"
+  },
+  {
+    "id": 6530,
+    "nome": "Ghedjemis",
+    "squadra": "Frosinone",
+    "ruolo": "A",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6530.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/ghedjemis/6530"
+  },
+  {
+    "id": 5514,
+    "nome": "Vasquez",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5514.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/vasquez/5514"
+  },
+  {
+    "id": 6274,
+    "nome": "Diouf",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6274.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/diouf/6274"
+  },
+  {
+    "id": 7070,
+    "nome": "Sucic P.",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7070.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/sucic-p/7070"
+  },
+  {
+    "id": 5876,
+    "nome": "Di Gregorio",
+    "squadra": "Juventus",
+    "ruolo": "P",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5876.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/di-gregorio/5876"
+  },
+  {
+    "id": 827,
+    "nome": "Locatelli",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/827.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/locatelli/827"
+  },
+  {
+    "id": 5562,
+    "nome": "Thuram K.",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5562.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/thuram-k/5562"
+  },
+  {
+    "id": 5500,
+    "nome": "Cancellieri",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5500.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/cancellieri/5500"
+  },
+  {
+    "id": 6398,
+    "nome": "Isaksen",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6398.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/isaksen/6398"
+  },
+  {
+    "id": 7313,
+    "nome": "Ratkov",
+    "squadra": "Lazio",
+    "ruolo": "A",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7313.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/ratkov/7313"
+  },
+  {
+    "id": 5878,
+    "nome": "Colpani",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5878.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/colpani/5878"
+  },
+  {
+    "id": 2155,
+    "nome": "Cutrone",
+    "squadra": "Monza",
+    "ruolo": "A",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2155.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/cutrone/2155"
+  },
+  {
+    "id": 7223,
+    "nome": "Vergara",
+    "squadra": "Napoli",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7223.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/vergara/7223"
+  },
+  {
+    "id": 5862,
+    "nome": "Valeri",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5862.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/valeri/5862"
+  },
+  {
+    "id": 779,
+    "nome": "Cristante",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/779.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/cristante/779"
+  },
+  {
+    "id": 5735,
+    "nome": "Volpato",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5735.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/volpato/5735"
+  },
+  {
+    "id": 5888,
+    "nome": "Casadei",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5888.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/casadei/5888"
+  },
+  {
+    "id": 6462,
+    "nome": "Okoye",
+    "squadra": "Udinese",
+    "ruolo": "P",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6462.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/okoye/6462"
+  },
+  {
+    "id": 4994,
+    "nome": "Vojvoda",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4994.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/vojvoda/4994"
+  },
+  {
+    "id": 6727,
+    "nome": "Couto",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6727.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/couto/6727"
+  },
+  {
+    "id": 530,
+    "nome": "Pellegrini Lo.",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/530.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/pellegrini-lo/530"
+  },
+  {
+    "id": 7600,
+    "nome": "Osmajic",
+    "squadra": "Genoa",
+    "ruolo": "A",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7600.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/osmajic/7600"
+  },
+  {
+    "id": 6534,
+    "nome": "Perri",
+    "squadra": "Torino",
+    "ruolo": "P",
+    "quotazione": 9,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6534.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/perri/6534"
+  },
+  {
+    "id": 554,
+    "nome": "Zappacosta",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/554.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/zappacosta/554"
+  },
+  {
+    "id": 2077,
+    "nome": "Pasalic",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2077.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/pasalic/2077"
+  },
+  {
+    "id": 6042,
+    "nome": "Lucumì",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6042.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/lucumì/6042"
+  },
+  {
+    "id": 5858,
+    "nome": "Ferguson",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5858.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/ferguson/5858"
+  },
+  {
+    "id": 2765,
+    "nome": "Odgaard",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2765.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/odgaard/2765"
+  },
+  {
+    "id": 4436,
+    "nome": "Cambiaghi",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4436.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/cambiaghi/4436"
+  },
+  {
+    "id": 6643,
+    "nome": "Dallinga",
+    "squadra": "Bologna",
+    "ruolo": "A",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6643.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/dallinga/6643"
+  },
+  {
+    "id": 5701,
+    "nome": "Obert",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5701.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/obert/5701"
+  },
+  {
+    "id": 7311,
+    "nome": "Romano",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7311.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/romano/7311"
+  },
+  {
+    "id": 6010,
+    "nome": "Fazzini",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6010.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/fazzini/6010"
+  },
+  {
+    "id": 7469,
+    "nome": "Bracaglia",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7469.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/bracaglia/7469"
+  },
+  {
+    "id": 7472,
+    "nome": "Calò",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7472.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/calò/7472"
+  },
+  {
+    "id": 6204,
+    "nome": "Kvernadze",
+    "squadra": "Frosinone",
+    "ruolo": "A",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6204.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/kvernadze/6204"
+  },
+  {
+    "id": 6814,
+    "nome": "Norton-Cuffy",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6814.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/norton-cuffy/6814"
+  },
+  {
+    "id": 4657,
+    "nome": "Celik",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4657.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/celik/4657"
+  },
+  {
+    "id": 5520,
+    "nome": "Cambiaso",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5520.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/cambiaso/5520"
+  },
+  {
+    "id": 5544,
+    "nome": "David",
+    "squadra": "Juventus",
+    "ruolo": "A",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5544.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/david/5544"
+  },
+  {
+    "id": 6320,
+    "nome": "Doekhi",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6320.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/doekhi/6320"
+  },
+  {
+    "id": 2134,
+    "nome": "Falcone",
+    "squadra": "Lecce",
+    "ruolo": "P",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2134.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/falcone/2134"
+  },
+  {
+    "id": 6989,
+    "nome": "Tiago Gabriel",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6989.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/tiago-gabriel/6989"
+  },
+  {
+    "id": 5029,
+    "nome": "Geubbels",
+    "squadra": "Lecce",
+    "ruolo": "A",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5029.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/geubbels/5029"
+  },
+  {
+    "id": 6496,
+    "nome": "Bartesaghi",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6496.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/bartesaghi/6496"
+  },
+  {
+    "id": 4856,
+    "nome": "Chukwueze",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4856.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/chukwueze/4856"
+  },
+  {
+    "id": 5427,
+    "nome": "Gutierrez",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5427.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/gutierrez/5427"
+  },
+  {
+    "id": 1852,
+    "nome": "Spinazzola",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/1852.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/spinazzola/1852"
+  },
+  {
+    "id": 4287,
+    "nome": "Lobotka",
+    "squadra": "Napoli",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4287.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/lobotka/4287"
+  },
+  {
+    "id": 6664,
+    "nome": "Delprato",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6664.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/delprato/6664"
+  },
+  {
+    "id": 7529,
+    "nome": "Koulierakis",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7529.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/koulierakis/7529"
+  },
+  {
+    "id": 6717,
+    "nome": "Konè I.",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6717.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/konè-i/6717"
+  },
+  {
+    "id": 6495,
+    "nome": "Comuzzo",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6495.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/comuzzo/6495"
+  },
+  {
+    "id": 5010,
+    "nome": "Ismajli",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5010.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/ismajli/5010"
+  },
+  {
+    "id": 6680,
+    "nome": "Karlstrom",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6680.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/karlstrom/6680"
+  },
+  {
+    "id": 7551,
+    "nome": "Schmid",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7551.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/schmid/7551"
+  },
+  {
+    "id": 7612,
+    "nome": "Bobcek",
+    "squadra": "Frosinone",
+    "ruolo": "A",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7612.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/bobcek/7612"
+  },
+  {
+    "id": 5675,
+    "nome": "Theate",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5675.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/theate/5675"
+  },
+  {
+    "id": 7618,
+    "nome": "Hutchinson",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7618.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/hutchinson/7618"
+  },
+  {
+    "id": 7220,
+    "nome": "Belghali",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7220.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/belghali/7220"
+  },
+  {
+    "id": 4137,
+    "nome": "Diego Carlos",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4137.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/diego-carlos/4137"
+  },
+  {
+    "id": 6833,
+    "nome": "Mbangula",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6833.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/mbangula/6833"
+  },
+  {
+    "id": 6344,
+    "nome": "Sanchez Ro.",
+    "squadra": "Como",
+    "ruolo": "P",
+    "quotazione": 8,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6344.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/sanchez-ro/6344"
+  },
+  {
+    "id": 787,
+    "nome": "Djimsiti",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/787.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/djimsiti/787"
+  },
+  {
+    "id": 6046,
+    "nome": "Hien",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6046.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/hien/6046"
+  },
+  {
+    "id": 4364,
+    "nome": "Gaetano",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4364.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/gaetano/4364"
+  },
+  {
+    "id": 5422,
+    "nome": "Zalewski",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5422.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/zalewski/5422"
+  },
+  {
+    "id": 4896,
+    "nome": "Maldini",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4896.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/maldini/4896"
+  },
+  {
+    "id": 4210,
+    "nome": "Mina",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4210.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/mina/4210"
+  },
+  {
+    "id": 4870,
+    "nome": "Adopo",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4870.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/adopo/4870"
+  },
+  {
+    "id": 4260,
+    "nome": "Winks",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4260.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/winks/4260"
+  },
+  {
+    "id": 6867,
+    "nome": "Valle",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6867.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/valle/6867"
+  },
+  {
+    "id": 5036,
+    "nome": "Caqueret",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5036.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/caqueret/5036"
+  },
+  {
+    "id": 5365,
+    "nome": "Dragusin",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5365.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/dragusin/5365"
+  },
+  {
+    "id": 6531,
+    "nome": "Jimenez A.",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6531.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/jimenez-a/6531"
+  },
+  {
+    "id": 4465,
+    "nome": "Fagioli",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4465.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/fagioli/4465"
+  },
+  {
+    "id": 6294,
+    "nome": "Ndour",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6294.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/ndour/6294"
+  },
+  {
+    "id": 6238,
+    "nome": "Oyono A.",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6238.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/oyono-a/6238"
+  },
+  {
+    "id": 7332,
+    "nome": "Bijlow",
+    "squadra": "Genoa",
+    "ruolo": "P",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7332.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/bijlow/7332"
+  },
+  {
+    "id": 5791,
+    "nome": "Frendrup",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5791.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/frendrup/5791"
+  },
+  {
+    "id": 6164,
+    "nome": "Vitinha O.",
+    "squadra": "Genoa",
+    "ruolo": "A",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6164.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/vitinha-o/6164"
+  },
+  {
+    "id": 5877,
+    "nome": "Carlos Augusto",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5877.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/carlos-augusto/5877"
+  },
+  {
+    "id": 6669,
+    "nome": "Bonny",
+    "squadra": "Inter",
+    "ruolo": "A",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6669.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/bonny/6669"
+  },
+  {
+    "id": 5685,
+    "nome": "Koopmeiners",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5685.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/koopmeiners/5685"
+  },
+  {
+    "id": 5620,
+    "nome": "Tavares N.",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5620.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/tavares-n/5620"
+  },
+  {
+    "id": 4459,
+    "nome": "Rovella",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4459.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/rovella/4459"
+  },
+  {
+    "id": 5504,
+    "nome": "Coulibaly L.",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5504.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/coulibaly-l/5504"
+  },
+  {
+    "id": 4401,
+    "nome": "Gabbia",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4401.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/gabbia/4401"
+  },
+  {
+    "id": 7485,
+    "nome": "Mangas",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7485.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/mangas/7485"
+  },
+  {
+    "id": 6593,
+    "nome": "Akinsanmiro",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6593.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/akinsanmiro/6593"
+  },
+  {
+    "id": 7523,
+    "nome": "Varela G.",
+    "squadra": "Monza",
+    "ruolo": "A",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7523.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/varela-g/7523"
+  },
+  {
+    "id": 6641,
+    "nome": "Suzuki",
+    "squadra": "Parma",
+    "ruolo": "P",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6641.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/suzuki/6641"
+  },
+  {
+    "id": 6666,
+    "nome": "Bernabè",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6666.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/bernabè/6666"
+  },
+  {
+    "id": 6190,
+    "nome": "Pisilli",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6190.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/pisilli/6190"
+  },
+  {
+    "id": 4236,
+    "nome": "Muric",
+    "squadra": "Sassuolo",
+    "ruolo": "P",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4236.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/muric/4236"
+  },
+  {
+    "id": 6672,
+    "nome": "Idzes",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6672.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/idzes/6672"
+  },
+  {
+    "id": 5851,
+    "nome": "Doig",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5851.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/doig/5851"
+  },
+  {
+    "id": 6677,
+    "nome": "Adzic",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6677.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/adzic/6677"
+  },
+  {
+    "id": 6642,
+    "nome": "Coco",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6642.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/coco/6642"
+  },
+  {
+    "id": 7449,
+    "nome": "Rrahmani Al.",
+    "squadra": "Venezia",
+    "ruolo": "A",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7449.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/rrahmani-al/7449"
+  },
+  {
+    "id": 5946,
+    "nome": "Sow",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5946.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/sow/5946"
+  },
+  {
+    "id": 6618,
+    "nome": "Cissè A.",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6618.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/cissè-a/6618"
+  },
+  {
+    "id": 4479,
+    "nome": "Elmas",
+    "squadra": "Atalanta",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4479.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/elmas/4479"
+  },
+  {
+    "id": 7619,
+    "nome": "Monteiro J.",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7619.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/monteiro-j/7619"
+  },
+  {
+    "id": 5680,
+    "nome": "Sarr P.",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5680.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/sarr-p/5680"
+  },
+  {
+    "id": 7623,
+    "nome": "Gnonto",
+    "squadra": "Fiorentina",
+    "ruolo": "A",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7623.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/gnonto/7623"
+  },
+  {
+    "id": 795,
+    "nome": "El Shaarawy",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 7,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/795.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/el-shaarawy/795"
+  },
+  {
+    "id": 2640,
+    "nome": "Kolasinac",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2640.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/kolasinac/2640"
+  },
+  {
+    "id": 6916,
+    "nome": "Ahanor",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6916.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/ahanor/6916"
+  },
+  {
+    "id": 5678,
+    "nome": "Holm",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5678.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/holm/5678"
+  },
+  {
+    "id": 4433,
+    "nome": "Zortea",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4433.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/zortea/4433"
+  },
+  {
+    "id": 5298,
+    "nome": "Pobega",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5298.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/pobega/5298"
+  },
+  {
+    "id": 7532,
+    "nome": "Kofler",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7532.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/kofler/7532"
+  },
+  {
+    "id": 7274,
+    "nome": "Zè Pedro",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7274.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/zè-pedro/7274"
+  },
+  {
+    "id": 6598,
+    "nome": "Mutandwa",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6598.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/mutandwa/6598"
+  },
+  {
+    "id": 7414,
+    "nome": "Kaiki",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7414.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/kaiki/7414"
+  },
+  {
+    "id": 7412,
+    "nome": "Milla",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7412.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/milla/7412"
+  },
+  {
+    "id": 6678,
+    "nome": "Liberali",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6678.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/liberali/6678"
+  },
+  {
+    "id": 7464,
+    "nome": "Oulai",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7464.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/oulai/7464"
+  },
+  {
+    "id": 7467,
+    "nome": "Calvani",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7467.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/calvani/7467"
+  },
+  {
+    "id": 4952,
+    "nome": "Monterisi",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4952.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/monterisi/4952"
+  },
+  {
+    "id": 5998,
+    "nome": "Zerbin",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5998.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/zerbin/5998"
+  },
+  {
+    "id": 6660,
+    "nome": "Marcandalli",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6660.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/marcandalli/6660"
+  },
+  {
+    "id": 6020,
+    "nome": "Ellertsson",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6020.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/ellertsson/6020"
+  },
+  {
+    "id": 4177,
+    "nome": "Pavard",
+    "squadra": "Inter",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4177.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/pavard/4177"
+  },
+  {
+    "id": 218,
+    "nome": "Perin",
+    "squadra": "Juventus",
+    "ruolo": "P",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/218.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/perin/218"
+  },
+  {
+    "id": 5761,
+    "nome": "Zhegrova",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5761.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/zhegrova/5761"
+  },
+  {
+    "id": 2832,
+    "nome": "Boga",
+    "squadra": "Juventus",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2832.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/boga/2832"
+  },
+  {
+    "id": 460,
+    "nome": "Romagnoli",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/460.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/romagnoli/460"
+  },
+  {
+    "id": 4817,
+    "nome": "Pedraza",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4817.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/pedraza/4817"
+  },
+  {
+    "id": 2188,
+    "nome": "Marusic",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2188.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/marusic/2188"
+  },
+  {
+    "id": 6556,
+    "nome": "Noslin",
+    "squadra": "Lazio",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6556.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/noslin/6556"
+  },
+  {
+    "id": 6549,
+    "nome": "Pierotti",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6549.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/pierotti/6549"
+  },
+  {
+    "id": 7252,
+    "nome": "Stulic",
+    "squadra": "Lecce",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7252.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/stulic/7252"
+  },
+  {
+    "id": 4751,
+    "nome": "Tomori",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4751.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/tomori/4751"
+  },
+  {
+    "id": 7008,
+    "nome": "Gimenez",
+    "squadra": "Milan",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7008.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/gimenez/7008"
+  },
+  {
+    "id": 2741,
+    "nome": "Pessina",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2741.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/pessina/2741"
+  },
+  {
+    "id": 2724,
+    "nome": "Buongiorno",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2724.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/buongiorno/2724"
+  },
+  {
+    "id": 7411,
+    "nome": "Daffara",
+    "squadra": "Parma",
+    "ruolo": "P",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7411.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/daffara/7411"
+  },
+  {
+    "id": 6663,
+    "nome": "Circati",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6663.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/circati/6663"
+  },
+  {
+    "id": 2528,
+    "nome": "Matic",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2528.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/matic/2528"
+  },
+  {
+    "id": 7036,
+    "nome": "Bakola",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7036.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/bakola/7036"
+  },
+  {
+    "id": 7060,
+    "nome": "Cacciamani",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7060.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/cacciamani/7060"
+  },
+  {
+    "id": 7535,
+    "nome": "Fitz-Jim",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7535.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/fitz-jim/7535"
+  },
+  {
+    "id": 6218,
+    "nome": "Oristanio",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6218.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/oristanio/6218"
+  },
+  {
+    "id": 608,
+    "nome": "Zapata D.",
+    "squadra": "Torino",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/608.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/zapata-d/608"
+  },
+  {
+    "id": 6485,
+    "nome": "Kristensen T.",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6485.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/kristensen-t/6485"
+  },
+  {
+    "id": 7198,
+    "nome": "Piotrowski",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7198.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/piotrowski/7198"
+  },
+  {
+    "id": 6783,
+    "nome": "Unai Gomez",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6783.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/unai-gomez/6783"
+  },
+  {
+    "id": 6248,
+    "nome": "Stankovic F.",
+    "squadra": "Venezia",
+    "ruolo": "P",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6248.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/stankovic-f/6248"
+  },
+  {
+    "id": 5674,
+    "nome": "Basic",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5674.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/basic/5674"
+  },
+  {
+    "id": 5507,
+    "nome": "Busio",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5507.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/busio/5507"
+  },
+  {
+    "id": 7546,
+    "nome": "Robinson J.",
+    "squadra": "Monza",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7546.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/robinson-j/7546"
+  },
+  {
+    "id": 7329,
+    "nome": "Obrador",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7329.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/obrador/7329"
+  },
+  {
+    "id": 7069,
+    "nome": "Fortini",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7069.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/fortini/7069"
+  },
+  {
+    "id": 7564,
+    "nome": "Leysen F.",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7564.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/leysen-f/7564"
+  },
+  {
+    "id": 4664,
+    "nome": "Badiashile",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4664.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/badiashile/4664"
+  },
+  {
+    "id": 7580,
+    "nome": "Sutalo J.",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7580.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/sutalo-j/7580"
+  },
+  {
+    "id": 4705,
+    "nome": "Balerdi",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4705.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/balerdi/4705"
+  },
+  {
+    "id": 4147,
+    "nome": "Caleta-Car",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4147.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/caleta-car/4147"
+  },
+  {
+    "id": 7620,
+    "nome": "Zeballos",
+    "squadra": "Monza",
+    "ruolo": "A",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7620.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/zeballos/7620"
+  },
+  {
+    "id": 7621,
+    "nome": "Sugawara",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7621.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/sugawara/7621"
+  },
+  {
+    "id": 7624,
+    "nome": "Braganca",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7624.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/braganca/7624"
+  },
+  {
+    "id": 6319,
+    "nome": "Leite",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 6,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6319.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/leite/6319"
+  },
+  {
+    "id": 4887,
+    "nome": "Bellanova",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4887.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/bellanova/4887"
+  },
+  {
+    "id": 7219,
+    "nome": "Bernasconi",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7219.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/bernasconi/7219"
+  },
+  {
+    "id": 5918,
+    "nome": "Sulemana K.",
+    "squadra": "Atalanta",
+    "ruolo": "A",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5918.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/sulemana-k/5918"
+  },
+  {
+    "id": 7212,
+    "nome": "Heggem",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7212.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/heggem/7212"
+  },
+  {
+    "id": 7268,
+    "nome": "Rodriguez Ju.",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7268.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/rodriguez-ju/7268"
+  },
+  {
+    "id": 6640,
+    "nome": "Felici",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6640.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/felici/6640"
+  },
+  {
+    "id": 7374,
+    "nome": "Mendy P.",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7374.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/mendy-p/7374"
+  },
+  {
+    "id": 6893,
+    "nome": "Kempf",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6893.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/kempf/6893"
+  },
+  {
+    "id": 7294,
+    "nome": "Valdepenas",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7294.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/valdepenas/7294"
+  },
+  {
+    "id": 7410,
+    "nome": "Viery",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7410.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/viery/7410"
+  },
+  {
+    "id": 6415,
+    "nome": "Palmisani",
+    "squadra": "Frosinone",
+    "ruolo": "P",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6415.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/palmisani/6415"
+  },
+  {
+    "id": 6506,
+    "nome": "Fini",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6506.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/fini/6506"
+  },
+  {
+    "id": 6917,
+    "nome": "Masini",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6917.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/masini/6917"
+  },
+  {
+    "id": 7409,
+    "nome": "Meichtry",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7409.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/meichtry/7409"
+  },
+  {
+    "id": 4970,
+    "nome": "Messias",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4970.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/messias/4970"
+  },
+  {
+    "id": 5301,
+    "nome": "Luis Henrique",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5301.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/luis-henrique/5301"
+  },
+  {
+    "id": 5831,
+    "nome": "Gatti",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5831.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/gatti/5831"
+  },
+  {
+    "id": 6766,
+    "nome": "Kelly L.",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6766.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/kelly-l/6766"
+  },
+  {
+    "id": 6632,
+    "nome": "Gaspar K.",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6632.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/gaspar-k/6632"
+  },
+  {
+    "id": 6990,
+    "nome": "Veiga D.",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6990.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/veiga-d/6990"
+  },
+  {
+    "id": 4502,
+    "nome": "Gallo",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4502.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/gallo/4502"
+  },
+  {
+    "id": 5739,
+    "nome": "De Winter",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5739.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/de-winter/5739"
+  },
+  {
+    "id": 7203,
+    "nome": "Jashari",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7203.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/jashari/7203"
+  },
+  {
+    "id": 5838,
+    "nome": "Birindelli",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5838.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/birindelli/5838"
+  },
+  {
+    "id": 5882,
+    "nome": "Mota",
+    "squadra": "Monza",
+    "ruolo": "A",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5882.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/mota/5882"
+  },
+  {
+    "id": 6202,
+    "nome": "Beukema",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6202.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/beukema/6202"
+  },
+  {
+    "id": 6831,
+    "nome": "Neres",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6831.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/neres/6831"
+  },
+  {
+    "id": 6898,
+    "nome": "Keita M.",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6898.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/keita-m/6898"
+  },
+  {
+    "id": 4349,
+    "nome": "Nicolussi Caviglia",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4349.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/nicolussi-caviglia/4349"
+  },
+  {
+    "id": 6984,
+    "nome": "Ondrejka",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6984.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/ondrejka/6984"
+  },
+  {
+    "id": 6631,
+    "nome": "Ghilardi",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6631.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/ghilardi/6631"
+  },
+  {
+    "id": 7526,
+    "nome": "Comert",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7526.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/comert/7526"
+  },
+  {
+    "id": 6426,
+    "nome": "Pedersen",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6426.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/pedersen/6426"
+  },
+  {
+    "id": 6170,
+    "nome": "Gineitis",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6170.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/gineitis/6170"
+  },
+  {
+    "id": 6827,
+    "nome": "Njie",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6827.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/njie/6827"
+  },
+  {
+    "id": 7253,
+    "nome": "Bella-Kotchap",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7253.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/bella-kotchap/7253"
+  },
+  {
+    "id": 4845,
+    "nome": "Correia T.",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4845.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/correia-t/4845"
+  },
+  {
+    "id": 6821,
+    "nome": "Hainaut",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6821.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/hainaut/6821"
+  },
+  {
+    "id": 5695,
+    "nome": "Haps",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5695.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/haps/5695"
+  },
+  {
+    "id": 5319,
+    "nome": "Sohm",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5319.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/sohm/5319"
+  },
+  {
+    "id": 6994,
+    "nome": "Perez K.",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6994.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/perez-k/6994"
+  },
+  {
+    "id": 7561,
+    "nome": "Lontani",
+    "squadra": "Parma",
+    "ruolo": "A",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7561.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/lontani/7561"
+  },
+  {
+    "id": 7146,
+    "nome": "Tourè I.",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7146.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/tourè-i/7146"
+  },
+  {
+    "id": 5751,
+    "nome": "Patterson",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5751.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/patterson/5751"
+  },
+  {
+    "id": 2169,
+    "nome": "Rodriguez R.",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 5,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2169.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/rodriguez-r/2169"
+  },
+  {
+    "id": 5578,
+    "nome": "Kossounou",
+    "squadra": "Atalanta",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5578.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/kossounou/5578"
+  },
+  {
+    "id": 7068,
+    "nome": "Vitik",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7068.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/vitik/7068"
+  },
+  {
+    "id": 7528,
+    "nome": "Amondarain",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7528.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/amondarain/7528"
+  },
+  {
+    "id": 6054,
+    "nome": "Moro N.",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6054.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/moro-n/6054"
+  },
+  {
+    "id": 4461,
+    "nome": "Zappa",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4461.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/zappa/4461"
+  },
+  {
+    "id": 1871,
+    "nome": "Deiola",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/1871.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/deiola/1871"
+  },
+  {
+    "id": 6424,
+    "nome": "Prati",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6424.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/prati/6424"
+  },
+  {
+    "id": 6243,
+    "nome": "Borrelli",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6243.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/borrelli/6243"
+  },
+  {
+    "id": 7014,
+    "nome": "Smolcic I.",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7014.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/smolcic-i/7014"
+  },
+  {
+    "id": 7127,
+    "nome": "Addai",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7127.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/addai/7127"
+  },
+  {
+    "id": 313,
+    "nome": "Morata",
+    "squadra": "Como",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/313.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/morata/313"
+  },
+  {
+    "id": 5449,
+    "nome": "Parisi",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5449.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/parisi/5449"
+  },
+  {
+    "id": 4947,
+    "nome": "Brescianini",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4947.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/brescianini/4947"
+  },
+  {
+    "id": 6206,
+    "nome": "Fabbian",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6206.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/fabbian/6206"
+  },
+  {
+    "id": 5757,
+    "nome": "Cittadini",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5757.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/cittadini/5757"
+  },
+  {
+    "id": 7473,
+    "nome": "Cichella",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7473.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/cichella/7473"
+  },
+  {
+    "id": 7474,
+    "nome": "Koutsoupias",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7474.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/koutsoupias/7474"
+  },
+  {
+    "id": 2593,
+    "nome": "Martin",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2593.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/martin/2593"
+  },
+  {
+    "id": 7341,
+    "nome": "Amorim",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7341.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/amorim/7341"
+  },
+  {
+    "id": 2857,
+    "nome": "Traorè Hj.",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2857.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/traorè-hj/2857"
+  },
+  {
+    "id": 2529,
+    "nome": "Mkhitaryan",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2529.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/mkhitaryan/2529"
+  },
+  {
+    "id": 4911,
+    "nome": "Douglas Luiz",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4911.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/douglas-luiz/4911"
+  },
+  {
+    "id": 7012,
+    "nome": "Provstgaard",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7012.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/provstgaard/7012"
+  },
+  {
+    "id": 7131,
+    "nome": "Floriani Mussolini",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7131.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/floriani-mussolini/7131"
+  },
+  {
+    "id": 6629,
+    "nome": "Dele-Bashiru",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6629.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/dele-bashiru/6629"
+  },
+  {
+    "id": 7240,
+    "nome": "Siebert",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7240.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/siebert/7240"
+  },
+  {
+    "id": 7322,
+    "nome": "Ngom",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7322.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/ngom/7322"
+  },
+  {
+    "id": 6015,
+    "nome": "Berisha M.",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6015.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/berisha-m/6015"
+  },
+  {
+    "id": 7318,
+    "nome": "Gandelman",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7318.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/gandelman/7318"
+  },
+  {
+    "id": 7001,
+    "nome": "N'Dri",
+    "squadra": "Lecce",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7001.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/n-dri/7001"
+  },
+  {
+    "id": 4686,
+    "nome": "Fofana Y.",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4686.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/fofana-y/4686"
+  },
+  {
+    "id": 5295,
+    "nome": "Musah",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5295.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/musah/5295"
+  },
+  {
+    "id": 4199,
+    "nome": "Loftus-Cheek",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4199.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/loftus-cheek/4199"
+  },
+  {
+    "id": 6519,
+    "nome": "Camarda",
+    "squadra": "Milan",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6519.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/camarda/6519"
+  },
+  {
+    "id": 4485,
+    "nome": "Thiam",
+    "squadra": "Monza",
+    "ruolo": "P",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4485.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/thiam/4485"
+  },
+  {
+    "id": 2115,
+    "nome": "Delli Carri",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2115.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/delli-carri/2115"
+  },
+  {
+    "id": 6659,
+    "nome": "Lucchesi",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6659.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/lucchesi/6659"
+  },
+  {
+    "id": 7238,
+    "nome": "Kouadio",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7238.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/kouadio/7238"
+  },
+  {
+    "id": 4925,
+    "nome": "Carboni A.",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4925.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/carboni-a/4925"
+  },
+  {
+    "id": 2170,
+    "nome": "Milinkovic-Savic V.",
+    "squadra": "Napoli",
+    "ruolo": "P",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2170.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/milinkovic-savic-v/2170"
+  },
+  {
+    "id": 5840,
+    "nome": "Olivera",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5840.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/olivera/5840"
+  },
+  {
+    "id": 6252,
+    "nome": "Folorunsho",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6252.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/folorunsho/6252"
+  },
+  {
+    "id": 7235,
+    "nome": "Troilo",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7235.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/troilo/7235"
+  },
+  {
+    "id": 5307,
+    "nome": "Valenti",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5307.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/valenti/5307"
+  },
+  {
+    "id": 7255,
+    "nome": "Britschgi",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7255.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/britschgi/7255"
+  },
+  {
+    "id": 6207,
+    "nome": "Almqvist",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6207.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/almqvist/6207"
+  },
+  {
+    "id": 7213,
+    "nome": "Frigan",
+    "squadra": "Parma",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7213.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/frigan/7213"
+  },
+  {
+    "id": 6986,
+    "nome": "Rensch",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6986.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/rensch/6986"
+  },
+  {
+    "id": 6271,
+    "nome": "El Aynaoui",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6271.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/el-aynaoui/6271"
+  },
+  {
+    "id": 6005,
+    "nome": "Ilkhan",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6005.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/ilkhan/6005"
+  },
+  {
+    "id": 7349,
+    "nome": "Kulenovic",
+    "squadra": "Torino",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7349.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/kulenovic/7349"
+  },
+  {
+    "id": 4263,
+    "nome": "Kabasele",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4263.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/kabasele/4263"
+  },
+  {
+    "id": 5820,
+    "nome": "Bertola",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5820.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/bertola/5820"
+  },
+  {
+    "id": 7208,
+    "nome": "Miller L.",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7208.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/miller-l/7208"
+  },
+  {
+    "id": 7272,
+    "nome": "Gueye",
+    "squadra": "Udinese",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7272.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/gueye/7272"
+  },
+  {
+    "id": 6890,
+    "nome": "Moreno M.",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6890.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/moreno-m/6890"
+  },
+  {
+    "id": 6681,
+    "nome": "Sagrado",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6681.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/sagrado/6681"
+  },
+  {
+    "id": 4387,
+    "nome": "Adorante",
+    "squadra": "Venezia",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4387.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/adorante/4387"
+  },
+  {
+    "id": 7550,
+    "nome": "Grillitsch",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7550.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/grillitsch/7550"
+  },
+  {
+    "id": 4375,
+    "nome": "Terzic",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4375.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/terzic/4375"
+  },
+  {
+    "id": 2012,
+    "nome": "Milik",
+    "squadra": "Juventus",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2012.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/milik/2012"
+  },
+  {
+    "id": 7573,
+    "nome": "Cinquegrano",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7573.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/cinquegrano/7573"
+  },
+  {
+    "id": 7602,
+    "nome": "Fatah",
+    "squadra": "Lecce",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7602.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/fatah/7602"
+  },
+  {
+    "id": 7610,
+    "nome": "Birligea",
+    "squadra": "Frosinone",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7610.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/birligea/7610"
+  },
+  {
+    "id": 6145,
+    "nome": "Ngonge",
+    "squadra": "Monza",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6145.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/ngonge/6145"
+  },
+  {
+    "id": 7579,
+    "nome": "Massolin",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7579.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/massolin/7579"
+  },
+  {
+    "id": 256,
+    "nome": "Juan Jesus",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/256.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/juan-jesus/256"
+  },
+  {
+    "id": 7232,
+    "nome": "Fernandez T.",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7232.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/fernandez-t/7232"
+  },
+  {
+    "id": 5336,
+    "nome": "Nzola",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5336.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/nzola/5336"
+  },
+  {
+    "id": 6047,
+    "nome": "Ehizibue",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 4,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6047.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/ehizibue/6047"
+  },
+  {
+    "id": 22,
+    "nome": "De Roon",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/22.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/de-roon/22"
+  },
+  {
+    "id": 6024,
+    "nome": "Sulemana I.",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6024.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/sulemana-i/6024"
+  },
+  {
+    "id": 7326,
+    "nome": "Helland",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7326.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/helland/7326"
+  },
+  {
+    "id": 6895,
+    "nome": "Dominguez B.",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6895.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/dominguez-b/6895"
+  },
+  {
+    "id": 6815,
+    "nome": "Fadera",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6815.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/fadera/6815"
+  },
+  {
+    "id": 7128,
+    "nome": "Kuhn",
+    "squadra": "Como",
+    "ruolo": "A",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7128.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/kuhn/7128"
+  },
+  {
+    "id": 5603,
+    "nome": "Pongracic",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5603.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/pongracic/5603"
+  },
+  {
+    "id": 7175,
+    "nome": "Joao Mario",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7175.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/joao-mario/7175"
+  },
+  {
+    "id": 7537,
+    "nome": "Mitaj",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7537.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/mitaj/7537"
+  },
+  {
+    "id": 7453,
+    "nome": "Havel",
+    "squadra": "Genoa",
+    "ruolo": "A",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7453.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/havel/7453"
+  },
+  {
+    "id": 5813,
+    "nome": "Miretti",
+    "squadra": "Juventus",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5813.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/miretti/5813"
+  },
+  {
+    "id": 6191,
+    "nome": "Belahyane",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6191.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/belahyane/6191"
+  },
+  {
+    "id": 333,
+    "nome": "Cataldi",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/333.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/cataldi/333"
+  },
+  {
+    "id": 7248,
+    "nome": "Gorter",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7248.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/gorter/7248"
+  },
+  {
+    "id": 5457,
+    "nome": "Maleh",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5457.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/maleh/5457"
+  },
+  {
+    "id": 7211,
+    "nome": "Athekame",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7211.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/athekame/7211"
+  },
+  {
+    "id": 5273,
+    "nome": "Estupinan",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5273.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/estupinan/5273"
+  },
+  {
+    "id": 5453,
+    "nome": "Ricci S.",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5453.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/ricci-s/5453"
+  },
+  {
+    "id": 7162,
+    "nome": "Giovane",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7162.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/giovane/7162"
+  },
+  {
+    "id": 7120,
+    "nome": "Lang",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7120.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/lang/7120"
+  },
+  {
+    "id": 6215,
+    "nome": "Lucca",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6215.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/lucca/6215"
+  },
+  {
+    "id": 6662,
+    "nome": "Corvi",
+    "squadra": "Parma",
+    "ruolo": "P",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6662.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/corvi/6662"
+  },
+  {
+    "id": 7138,
+    "nome": "Ordonez C.",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7138.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/ordonez-c/7138"
+  },
+  {
+    "id": 7209,
+    "nome": "Sorensen O.",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7209.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/sorensen-o/7209"
+  },
+  {
+    "id": 7536,
+    "nome": "Diallo O.",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7536.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/diallo-o/7536"
+  },
+  {
+    "id": 7342,
+    "nome": "Elphege",
+    "squadra": "Parma",
+    "ruolo": "A",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7342.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/elphege/7342"
+  },
+  {
+    "id": 4772,
+    "nome": "Angelino",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4772.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/angelino/4772"
+  },
+  {
+    "id": 4374,
+    "nome": "Walukiewicz",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4374.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/walukiewicz/4374"
+  },
+  {
+    "id": 7183,
+    "nome": "Aboukhlal",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7183.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/aboukhlal/7183"
+  },
+  {
+    "id": 6021,
+    "nome": "Abankwah",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6021.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/abankwah/6021"
+  },
+  {
+    "id": 5994,
+    "nome": "Ebosse",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5994.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/ebosse/5994"
+  },
+  {
+    "id": 5527,
+    "nome": "Zanoli",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5527.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/zanoli/5527"
+  },
+  {
+    "id": 7312,
+    "nome": "Arizala",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7312.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/arizala/7312"
+  },
+  {
+    "id": 7538,
+    "nome": "Halhal",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7538.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/halhal/7538"
+  },
+  {
+    "id": 6892,
+    "nome": "Schingtienne",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6892.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/schingtienne/6892"
+  },
+  {
+    "id": 7154,
+    "nome": "Odenthal",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7154.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/odenthal/7154"
+  },
+  {
+    "id": 7563,
+    "nome": "Favasuli",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7563.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/favasuli/7563"
+  },
+  {
+    "id": 7599,
+    "nome": "Lulli",
+    "squadra": "Roma",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7599.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/lulli/7599"
+  },
+  {
+    "id": 7605,
+    "nome": "Tchato",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7605.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/tchato/7605"
+  },
+  {
+    "id": 6601,
+    "nome": "Kambwala",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6601.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/kambwala/6601"
+  },
+  {
+    "id": 801,
+    "nome": "Gagliardini",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/801.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/gagliardini/801"
+  },
+  {
+    "id": 5742,
+    "nome": "Drameh",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 3,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5742.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/drameh/5742"
+  },
+  {
+    "id": 5498,
+    "nome": "Casale",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5498.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/casale/5498"
+  },
+  {
+    "id": 7483,
+    "nome": "Alhassane",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7483.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/alhassane/7483"
+  },
+  {
+    "id": 6225,
+    "nome": "El Azzouzi O.",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6225.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/el-azzouzi-o/6225"
+  },
+  {
+    "id": 7125,
+    "nome": "Idrissi R.",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7125.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/idrissi-r/7125"
+  },
+  {
+    "id": 4378,
+    "nome": "Ranieri L.",
+    "squadra": "Fiorentina",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4378.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/ranieri-l/4378"
+  },
+  {
+    "id": 7540,
+    "nome": "Akpoguma",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7540.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/akpoguma/7540"
+  },
+  {
+    "id": 6241,
+    "nome": "Gelli F.",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6241.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/gelli-f/6241"
+  },
+  {
+    "id": 6903,
+    "nome": "Hasa",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6903.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/hasa/6903"
+  },
+  {
+    "id": 6977,
+    "nome": "Otoa",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6977.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/otoa/6977"
+  },
+  {
+    "id": 791,
+    "nome": "Sabelli",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/791.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/sabelli/791"
+  },
+  {
+    "id": 6503,
+    "nome": "Stankovic A.",
+    "squadra": "Inter",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6503.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/stankovic-a/6503"
+  },
+  {
+    "id": 6822,
+    "nome": "Ekhator",
+    "squadra": "Juventus",
+    "ruolo": "A",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6822.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/ekhator/6822"
+  },
+  {
+    "id": 7477,
+    "nome": "Colombo L.",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7477.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/colombo-l/7477"
+  },
+  {
+    "id": 383,
+    "nome": "Petagna",
+    "squadra": "Monza",
+    "ruolo": "A",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/383.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/petagna/383"
+  },
+  {
+    "id": 6638,
+    "nome": "Marin R.",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6638.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/marin-r/6638"
+  },
+  {
+    "id": 5131,
+    "nome": "Gilmour",
+    "squadra": "Napoli",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5131.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/gilmour/5131"
+  },
+  {
+    "id": 7276,
+    "nome": "Cremaschi",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7276.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/cremaschi/7276"
+  },
+  {
+    "id": 6985,
+    "nome": "Candè",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6985.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/candè/6985"
+  },
+  {
+    "id": 6246,
+    "nome": "Lipani",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6246.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/lipani/6246"
+  },
+  {
+    "id": 6925,
+    "nome": "Palma",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6925.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/palma/6925"
+  },
+  {
+    "id": 6212,
+    "nome": "Zarraga",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6212.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/zarraga/6212"
+  },
+  {
+    "id": 7249,
+    "nome": "Buksa",
+    "squadra": "Udinese",
+    "ruolo": "A",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7249.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/buksa/7249"
+  },
+  {
+    "id": 6673,
+    "nome": "Sverko",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6673.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/sverko/6673"
+  },
+  {
+    "id": 7478,
+    "nome": "Franjic",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7478.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/franjic/7478"
+  },
+  {
+    "id": 5872,
+    "nome": "Helgason",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5872.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/helgason/5872"
+  },
+  {
+    "id": 7482,
+    "nome": "Lauberbach",
+    "squadra": "Venezia",
+    "ruolo": "A",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7482.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/lauberbach/7482"
+  },
+  {
+    "id": 6592,
+    "nome": "Forson O.",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6592.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/forson-o/6592"
+  },
+  {
+    "id": 6537,
+    "nome": "Goglichidze",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6537.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/goglichidze/6537"
+  },
+  {
+    "id": 7574,
+    "nome": "Foe Ondoa",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7574.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/foe-ondoa/7574"
+  },
+  {
+    "id": 7615,
+    "nome": "Drobnic",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7615.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/drobnic/7615"
+  },
+  {
+    "id": 7092,
+    "nome": "Jovanovic",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7092.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/jovanovic/7092"
+  },
+  {
+    "id": 7627,
+    "nome": "Enem",
+    "squadra": "Bologna",
+    "ruolo": "A",
+    "quotazione": 2,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7627.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/enem/7627"
+  },
+  {
+    "id": 2297,
+    "nome": "Rossi F.",
+    "squadra": "Atalanta",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2297.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/rossi-f/2297"
   },
   {
     "id": 4,
-    "nome": "Andrea Bellini",
-    "squadra": "Napoli",
-    "ruolo": "A",
-    "quotazione": 31,
-    "foto": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1200&q=85"
-  },
-  {
-    "id": 5,
-    "nome": "Lorenzo Greco",
-    "squadra": "Roma",
-    "ruolo": "C",
-    "quotazione": 22,
-    "foto": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?auto=format&fit=crop&w=1200&q=85"
-  },
-  {
-    "id": 6,
-    "nome": "Matteo Ferri",
-    "squadra": "Lazio",
-    "ruolo": "P",
-    "quotazione": 13,
-    "foto": "https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=1200&q=85"
-  },
-  {
-    "id": 7,
-    "nome": "Riccardo De Luca",
+    "nome": "Sportiello",
     "squadra": "Atalanta",
-    "ruolo": "A",
-    "quotazione": 28,
-    "foto": "https://images.unsplash.com/photo-1600679472829-3044539ce8ed?auto=format&fit=crop&w=1200&q=85"
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/sportiello/4"
   },
   {
-    "id": 8,
-    "nome": "Samuele Conti",
+    "id": 7533,
+    "nome": "Happonen",
+    "squadra": "Bologna",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7533.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/happonen/7533"
+  },
+  {
+    "id": 7172,
+    "nome": "Pessina Mas.",
+    "squadra": "Bologna",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7172.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/pessina-mas/7172"
+  },
+  {
+    "id": 487,
+    "nome": "De Silvestri",
     "squadra": "Bologna",
     "ruolo": "D",
-    "quotazione": 16,
-    "foto": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=85"
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/487.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/de-silvestri/487"
   },
   {
-    "id": 9,
-    "nome": "Federico Villa",
-    "squadra": "Fiorentina",
-    "ruolo": "C",
-    "quotazione": 20,
-    "foto": "https://images.unsplash.com/photo-1624880357913-a8539238245b?auto=format&fit=crop&w=1200&q=85"
-  },
-  {
-    "id": 10,
-    "nome": "Davide Fontana",
-    "squadra": "Torino",
+    "id": 4929,
+    "nome": "Ciocci",
+    "squadra": "Cagliari",
     "ruolo": "P",
-    "quotazione": 10,
-    "foto": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1200&q=85"
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4929.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/ciocci/4929"
   },
   {
-    "id": 11,
-    "nome": "Gabriele Leoni",
-    "squadra": "Udinese",
+    "id": 6650,
+    "nome": "Sherri",
+    "squadra": "Cagliari",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6650.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/sherri/6650"
+  },
+  {
+    "id": 7346,
+    "nome": "Raterink",
+    "squadra": "Cagliari",
     "ruolo": "D",
-    "quotazione": 12,
-    "foto": "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?auto=format&fit=crop&w=1200&q=85"
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7346.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/raterink/7346"
   },
   {
-    "id": 12,
-    "nome": "Pietro Marchetti",
-    "squadra": "Genoa",
-    "ruolo": "A",
-    "quotazione": 19,
-    "foto": "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=1200&q=85"
-  },
-  {
-    "id": 13,
-    "nome": "Jacopo Caruso",
-    "squadra": "Lecce",
+    "id": 7165,
+    "nome": "Liteta",
+    "squadra": "Cagliari",
     "ruolo": "C",
-    "quotazione": 14,
-    "foto": "https://images.unsplash.com/photo-1598881034666-6d3443d4b1bc?auto=format&fit=crop&w=1200&q=85"
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7165.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/liteta/7165"
   },
   {
-    "id": 14,
-    "nome": "Edoardo Neri",
-    "squadra": "Parma",
+    "id": 7338,
+    "nome": "Albarracin",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7338.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/albarracin/7338"
+  },
+  {
+    "id": 7317,
+    "nome": "Trepy",
+    "squadra": "Cagliari",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7317.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/trepy/7317"
+  },
+  {
+    "id": 7301,
+    "nome": "Tornqvist",
+    "squadra": "Monza",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7301.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/tornqvist/7301"
+  },
+  {
+    "id": 2809,
+    "nome": "Vigorito",
+    "squadra": "Como",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2809.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/vigorito/2809"
+  },
+  {
+    "id": 418,
+    "nome": "Goldaniga",
+    "squadra": "Como",
     "ruolo": "D",
-    "quotazione": 11,
-    "foto": "https://images.unsplash.com/photo-1577223625816-7546f13df25d?auto=format&fit=crop&w=1200&q=85"
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/418.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/goldaniga/418"
   },
   {
-    "id": 15,
-    "nome": "Cristian Romano",
+    "id": 7407,
+    "nome": "Cuenca A.",
+    "squadra": "Como",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7407.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/cuenca-a/7407"
+  },
+  {
+    "id": 6896,
+    "nome": "Van Der Brempt",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6896.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/van-der-brempt/6896"
+  },
+  {
+    "id": 7357,
+    "nome": "Lahdo",
+    "squadra": "Como",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7357.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/lahdo/7357"
+  },
+  {
+    "id": 7027,
+    "nome": "Azon",
     "squadra": "Como",
     "ruolo": "A",
-    "quotazione": 26,
-    "foto": "https://images.unsplash.com/photo-1570498839593-e565b39455fc?auto=format&fit=crop&w=1200&q=85"
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7027.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/como/azon/7027"
+  },
+  {
+    "id": 6403,
+    "nome": "Christensen O.",
+    "squadra": "Fiorentina",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6403.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/christensen-o/6403"
+  },
+  {
+    "id": 158,
+    "nome": "Lezzerini",
+    "squadra": "Fiorentina",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/158.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/lezzerini/158"
+  },
+  {
+    "id": 7463,
+    "nome": "Desplanches",
+    "squadra": "Frosinone",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7463.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/desplanches/7463"
+  },
+  {
+    "id": 7466,
+    "nome": "Lolic",
+    "squadra": "Frosinone",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7466.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/lolic/7466"
+  },
+  {
+    "id": 5424,
+    "nome": "Amey",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5424.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/amey/5424"
+  },
+  {
+    "id": 7468,
+    "nome": "Gelli J.",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7468.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/gelli-j/7468"
+  },
+  {
+    "id": 7470,
+    "nome": "Oyono J.",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7470.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/oyono-j/7470"
+  },
+  {
+    "id": 7471,
+    "nome": "Corrado",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7471.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/corrado/7471"
+  },
+  {
+    "id": 7456,
+    "nome": "El Azzouzi A.",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7456.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/el-azzouzi-a/7456"
+  },
+  {
+    "id": 5725,
+    "nome": "Kone B.",
+    "squadra": "Frosinone",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5725.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/kone-b/5725"
+  },
+  {
+    "id": 219,
+    "nome": "Sommariva",
+    "squadra": "Genoa",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/219.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/sommariva/219"
+  },
+  {
+    "id": 6569,
+    "nome": "Stolz",
+    "squadra": "Genoa",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6569.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/stolz/6569"
+  },
+  {
+    "id": 6245,
+    "nome": "Vogliacco",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6245.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/vogliacco/6245"
+  },
+  {
+    "id": 6244,
+    "nome": "Matturro",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6244.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/matturro/6244"
+  },
+  {
+    "id": 7413,
+    "nome": "Puczka",
+    "squadra": "Genoa",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7413.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/puczka/7413"
+  },
+  {
+    "id": 6980,
+    "nome": "Venturino",
+    "squadra": "Genoa",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6980.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/venturino/6980"
+  },
+  {
+    "id": 1926,
+    "nome": "Di Gennaro",
+    "squadra": "Inter",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/1926.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/di-gennaro/1926"
+  },
+  {
+    "id": 2814,
+    "nome": "Provedel",
+    "squadra": "Inter",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2814.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/inter/provedel/2814"
+  },
+  {
+    "id": 1930,
+    "nome": "Pinsoglio",
+    "squadra": "Juventus",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/1930.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/pinsoglio/1930"
+  },
+  {
+    "id": 294,
+    "nome": "Rugani",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/294.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/rugani/294"
+  },
+  {
+    "id": 6039,
+    "nome": "Cabal",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6039.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/cabal/6039"
+  },
+  {
+    "id": 7337,
+    "nome": "Motta",
+    "squadra": "Lazio",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7337.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/motta/7337"
+  },
+  {
+    "id": 7534,
+    "nome": "Renzetti",
+    "squadra": "Lazio",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7534.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/renzetti/7534"
+  },
+  {
+    "id": 327,
+    "nome": "Patric",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/327.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/patric/327"
+  },
+  {
+    "id": 2263,
+    "nome": "Lazzari",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2263.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/lazzari/2263"
+  },
+  {
+    "id": 2728,
+    "nome": "Pellegrini Lu.",
+    "squadra": "Lazio",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2728.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/pellegrini-lu/2728"
+  },
+  {
+    "id": 7345,
+    "nome": "Przyborek",
+    "squadra": "Lazio",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7345.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lazio/przyborek/7345"
+  },
+  {
+    "id": 2401,
+    "nome": "Fruchtl",
+    "squadra": "Lecce",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2401.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/fruchtl/2401"
+  },
+  {
+    "id": 6523,
+    "nome": "Samooja",
+    "squadra": "Lecce",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6523.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/samooja/6523"
+  },
+  {
+    "id": 6883,
+    "nome": "Jean",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6883.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/jean/6883"
+  },
+  {
+    "id": 7164,
+    "nome": "Perez M.",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7164.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/perez-m/7164"
+  },
+  {
+    "id": 7182,
+    "nome": "Ndaba",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7182.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/ndaba/7182"
+  },
+  {
+    "id": 6410,
+    "nome": "Kaba",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6410.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/kaba/6410"
+  },
+  {
+    "id": 7319,
+    "nome": "Fofana Sa.",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7319.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/fofana-sa/7319"
+  },
+  {
+    "id": 2815,
+    "nome": "Terracciano",
+    "squadra": "Milan",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2815.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/terracciano/2815"
+  },
+  {
+    "id": 6813,
+    "nome": "Torriani",
+    "squadra": "Milan",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6813.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/torriani/6813"
+  },
+  {
+    "id": 7525,
+    "nome": "Diawara S.",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7525.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/diawara-s/7525"
+  },
+  {
+    "id": 6682,
+    "nome": "Pizzignacco",
+    "squadra": "Monza",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6682.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/pizzignacco/6682"
+  },
+  {
+    "id": 7475,
+    "nome": "Strajnar",
+    "squadra": "Monza",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7475.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/strajnar/7475"
+  },
+  {
+    "id": 5399,
+    "nome": "Antov",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5399.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/antov/5399"
+  },
+  {
+    "id": 7476,
+    "nome": "Bakoune",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7476.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/bakoune/7476"
+  },
+  {
+    "id": 5880,
+    "nome": "Ciurria",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5880.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/ciurria/5880"
+  },
+  {
+    "id": 2845,
+    "nome": "Contini",
+    "squadra": "Napoli",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2845.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/contini/2845"
+  },
+  {
+    "id": 6809,
+    "nome": "Marianucci",
+    "squadra": "Napoli",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6809.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/napoli/marianucci/6809"
+  },
+  {
+    "id": 5481,
+    "nome": "Mazzocchi",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5481.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/mazzocchi/5481"
+  },
+  {
+    "id": 7202,
+    "nome": "Ndiaye",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7202.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/ndiaye/7202"
+  },
+  {
+    "id": 6149,
+    "nome": "Carboni F.",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6149.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/carboni-f/6149"
+  },
+  {
+    "id": 7048,
+    "nome": "De Marzi",
+    "squadra": "Roma",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7048.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/de-marzi/7048"
+  },
+  {
+    "id": 610,
+    "nome": "Gollini",
+    "squadra": "Roma",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/610.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/gollini/610"
+  },
+  {
+    "id": 7260,
+    "nome": "Ziolkowski",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7260.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/ziolkowski/7260"
+  },
+  {
+    "id": 6981,
+    "nome": "Vaz",
+    "squadra": "Roma",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6981.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/roma/vaz/6981"
+  },
+  {
+    "id": 4518,
+    "nome": "Russo A.",
+    "squadra": "Sassuolo",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4518.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/russo-a/4518"
+  },
+  {
+    "id": 4867,
+    "nome": "Turati",
+    "squadra": "Sassuolo",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4867.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/turati/4867"
+  },
+  {
+    "id": 6189,
+    "nome": "Missori",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6189.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/missori/6189"
+  },
+  {
+    "id": 7156,
+    "nome": "Pieragnolo",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7156.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/pieragnolo/7156"
+  },
+  {
+    "id": 6219,
+    "nome": "Boloca",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6219.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/boloca/6219"
+  },
+  {
+    "id": 7157,
+    "nome": "Iannoni",
+    "squadra": "Sassuolo",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7157.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/iannoni/7157"
+  },
+  {
+    "id": 7158,
+    "nome": "Moro L.",
+    "squadra": "Sassuolo",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7158.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/moro-l/7158"
+  },
+  {
+    "id": 7457,
+    "nome": "Mascardi",
+    "squadra": "Torino",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7457.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/mascardi/7457"
+  },
+  {
+    "id": 5320,
+    "nome": "Paleari",
+    "squadra": "Torino",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5320.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/paleari/5320"
+  },
+  {
+    "id": 7363,
+    "nome": "Siviero",
+    "squadra": "Torino",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7363.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/siviero/7363"
+  },
+  {
+    "id": 252,
+    "nome": "Biraghi",
+    "squadra": "Torino",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/252.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/biraghi/252"
+  },
+  {
+    "id": 5007,
+    "nome": "Ilic",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5007.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/ilic/5007"
+  },
+  {
+    "id": 6889,
+    "nome": "Anjorin",
+    "squadra": "Torino",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6889.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/torino/anjorin/6889"
+  },
+  {
+    "id": 543,
+    "nome": "Padelli",
+    "squadra": "Udinese",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/543.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/padelli/543"
+  },
+  {
+    "id": 5707,
+    "nome": "Piana",
+    "squadra": "Udinese",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5707.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/piana/5707"
+  },
+  {
+    "id": 7356,
+    "nome": "Mlacic",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7356.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/mlacic/7356"
+  },
+  {
+    "id": 7392,
+    "nome": "Camara A.",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7392.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/camara-a/7392"
+  },
+  {
+    "id": 7418,
+    "nome": "Chakvetadze",
+    "squadra": "Udinese",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7418.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/chakvetadze/7418"
+  },
+  {
+    "id": 7161,
+    "nome": "Bayo V.",
+    "squadra": "Udinese",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7161.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/bayo-v/7161"
+  },
+  {
+    "id": 6671,
+    "nome": "Grandi",
+    "squadra": "Venezia",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6671.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/grandi/6671"
+  },
+  {
+    "id": 7531,
+    "nome": "Pozzi",
+    "squadra": "Venezia",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7531.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/pozzi/7531"
+  },
+  {
+    "id": 7454,
+    "nome": "Gomes",
+    "squadra": "Venezia",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7454.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/gomes/7454"
+  },
+  {
+    "id": 5485,
+    "nome": "Bjarkason",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5485.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/bjarkason/5485"
+  },
+  {
+    "id": 7481,
+    "nome": "Dagasso",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7481.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/dagasso/7481"
+  },
+  {
+    "id": 526,
+    "nome": "Duncan",
+    "squadra": "Venezia",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/526.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/duncan/526"
+  },
+  {
+    "id": 7408,
+    "nome": "Lisman",
+    "squadra": "Venezia",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7408.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/lisman/7408"
+  },
+  {
+    "id": 7545,
+    "nome": "Vismara",
+    "squadra": "Atalanta",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7545.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/vismara/7545"
+  },
+  {
+    "id": 2127,
+    "nome": "Satalino",
+    "squadra": "Sassuolo",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2127.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/satalino/2127"
+  },
+  {
+    "id": 7548,
+    "nome": "Aurelio",
+    "squadra": "Cagliari",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7548.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/aurelio/7548"
+  },
+  {
+    "id": 7557,
+    "nome": "Penev",
+    "squadra": "Lecce",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7557.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/penev/7557"
+  },
+  {
+    "id": 7560,
+    "nome": "Pisseri",
+    "squadra": "Frosinone",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7560.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/pisseri/7560"
+  },
+  {
+    "id": 3,
+    "nome": "Radunovic",
+    "squadra": "Cagliari",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/3.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/radunovic/3"
+  },
+  {
+    "id": 7568,
+    "nome": "De Martis",
+    "squadra": "Parma",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7568.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/de-martis/7568"
+  },
+  {
+    "id": 4957,
+    "nome": "Montipò",
+    "squadra": "Venezia",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4957.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/venezia/montipò/4957"
+  },
+  {
+    "id": 7553,
+    "nome": "Omar Fayed",
+    "squadra": "Frosinone",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7553.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/frosinone/omar-fayed/7553"
+  },
+  {
+    "id": 4468,
+    "nome": "Bleve",
+    "squadra": "Lecce",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/4468.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/bleve/4468"
+  },
+  {
+    "id": 7571,
+    "nome": "Laerke",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7571.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/laerke/7571"
+  },
+  {
+    "id": 7572,
+    "nome": "Comotto",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7572.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/comotto/7572"
+  },
+  {
+    "id": 7396,
+    "nome": "Macchioni",
+    "squadra": "Sassuolo",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7396.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/macchioni/7396"
+  },
+  {
+    "id": 7575,
+    "nome": "Mout",
+    "squadra": "Monza",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7575.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/mout/7575"
+  },
+  {
+    "id": 5812,
+    "nome": "Terracciano F.",
+    "squadra": "Milan",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5812.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/milan/terracciano-f/5812"
+  },
+  {
+    "id": 5462,
+    "nome": "Ciervo",
+    "squadra": "Cagliari",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/5462.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/cagliari/ciervo/5462"
+  },
+  {
+    "id": 7603,
+    "nome": "Grabara",
+    "squadra": "Juventus",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7603.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/juventus/grabara/7603"
+  },
+  {
+    "id": 7604,
+    "nome": "Maye",
+    "squadra": "Monza",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7604.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/monza/maye/7604"
+  },
+  {
+    "id": 7611,
+    "nome": "Mrozek",
+    "squadra": "Udinese",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7611.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/udinese/mrozek/7611"
+  },
+  {
+    "id": 6826,
+    "nome": "Dembelè A.",
+    "squadra": "Lecce",
+    "ruolo": "D",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/6826.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/lecce/dembelè-a/6826"
+  },
+  {
+    "id": 2874,
+    "nome": "Ghidotti",
+    "squadra": "Parma",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/2874.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/ghidotti/2874"
+  },
+  {
+    "id": 7622,
+    "nome": "Robinho Junior",
+    "squadra": "Genoa",
+    "ruolo": "A",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7622.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/genoa/robinho-junior/7622"
+  },
+  {
+    "id": 7626,
+    "nome": "Pompei",
+    "squadra": "Atalanta",
+    "ruolo": "P",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7626.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/atalanta/pompei/7626"
+  },
+  {
+    "id": 7628,
+    "nome": "Sierro",
+    "squadra": "Parma",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7628.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/parma/sierro/7628"
+  },
+  {
+    "id": 7629,
+    "nome": "Libra",
+    "squadra": "Bologna",
+    "ruolo": "C",
+    "quotazione": 1,
+    "foto": "https://content.fantacalcio.it/web/campioncini/21/card/7629.png",
+    "fonteFoto": "https://www.fantacalcio.it/serie-a/squadre/bologna/libra/7629"
   }
 ]

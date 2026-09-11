@@ -5,18 +5,46 @@
   let renderedPlayerId = null;
   let previousPrice = null;
   let previousBidderId = null;
+  let countdownInterval = null;
+  let autoAssignTimeout = null;
+  let scheduledExpiry = null;
+  let autoAdvanceInProgress = false;
+
+  const TEAM_LOGOS = Object.freeze({
+    Atalanta: "https://content.fantacalcio.it/web/img/team/ico/atalanta2026.png",
+    Bologna: "https://content.fantacalcio.it/web/img/team/ico/bolognanew.png",
+    Cagliari: "https://content.fantacalcio.it/web/img/team/ico/cagliari.png",
+    Como: "https://content.fantacalcio.it/web/img/team/ico/como_2024.png",
+    Fiorentina: "https://content.fantacalcio.it/web/img/team/ico/fiorentina2022.png",
+    Frosinone: "https://content.fantacalcio.it/web/img/team/ico/frosinone.png",
+    Genoa: "https://content.fantacalcio.it/web/img/team/ico/genoa_new.png",
+    Inter: "https://content.fantacalcio.it/web/img/team/ico/inter2021.png",
+    Juventus: "https://content.fantacalcio.it/web/img/team/ico/juventus_2024.png",
+    Lazio: "https://content.fantacalcio.it/web/img/team/ico/lazio.png",
+    Lecce: "https://content.fantacalcio.it/web/img/team/ico/lecce.png",
+    Milan: "https://content.fantacalcio.it/web/img/team/ico/milan.png",
+    Monza: "https://content.fantacalcio.it/web/img/team/ico/monza_2024.png",
+    Napoli: "https://content.fantacalcio.it/web/img/team/ico/napoli_2024_new.png",
+    Parma: "https://content.fantacalcio.it/web/img/team/ico/parma.png",
+    Roma: "https://content.fantacalcio.it/web/img/team/ico/roma.png",
+    Sassuolo: "https://content.fantacalcio.it/web/img/team/ico/sassuolooriginal.png",
+    Torino: "https://content.fantacalcio.it/web/img/team/ico/torino.png",
+    Udinese: "https://content.fantacalcio.it/web/img/team/ico/udinese.png",
+    Venezia: "https://content.fantacalcio.it/web/img/team/ico/venezia_2026.png"
+  });
 
   const elements = {
     league: document.getElementById("auction-league"),
     code: document.getElementById("auction-code"),
     credits: document.getElementById("my-credits"),
+    stage: document.getElementById("auction-stage"),
     visual: document.getElementById("player-visual"),
     image: document.getElementById("player-image"),
     fallback: document.getElementById("player-fallback"),
-    club: document.getElementById("player-club"),
     heading: document.getElementById("player-heading"),
     role: document.getElementById("player-role"),
     team: document.getElementById("player-team"),
+    teamLogo: document.getElementById("player-team-logo"),
     name: document.getElementById("player-name"),
     quotation: document.getElementById("player-quotation"),
     empty: document.getElementById("empty-auction"),
@@ -24,10 +52,11 @@
     bidArea: document.getElementById("bid-area"),
     price: document.getElementById("current-price"),
     bidder: document.getElementById("highest-bidder"),
+    countdown: document.getElementById("auction-countdown"),
+    countdownSeconds: document.getElementById("countdown-seconds"),
     bidFeedback: document.getElementById("bid-feedback"),
     hostPanel: document.getElementById("host-panel"),
     draw: document.getElementById("draw-player"),
-    assign: document.getElementById("assign-player"),
     cancel: document.getElementById("cancel-auction"),
     next: document.getElementById("next-player"),
     ticker: document.getElementById("auction-ticker"),
@@ -44,12 +73,159 @@
     element.classList.add(className);
   }
 
+  function renderTeamLogo(team) {
+    if (!elements.teamLogo) return;
+    const teamLogo = TEAM_LOGOS[team];
+    elements.teamLogo.hidden = true;
+    elements.teamLogo.alt = `Stemma ${team}`;
+    elements.teamLogo.onload = function () {
+      elements.teamLogo.hidden = false;
+    };
+    elements.teamLogo.onerror = function () {
+      elements.teamLogo.hidden = true;
+    };
+    if (teamLogo) {
+      elements.teamLogo.src = teamLogo;
+    } else {
+      elements.teamLogo.removeAttribute("src");
+    }
+  }
+
+  function clearBidTimer() {
+    window.clearInterval(countdownInterval);
+    window.clearTimeout(autoAssignTimeout);
+    countdownInterval = null;
+    autoAssignTimeout = null;
+    scheduledExpiry = null;
+    elements.countdown.hidden = true;
+    elements.countdown.classList.remove("is-urgent");
+    elements.stage.classList.remove(
+      "is-closing",
+      "closing-level-1",
+      "closing-level-2",
+      "closing-level-3",
+      "closing-level-4"
+    );
+    document.body.classList.remove(
+      "auction-panic",
+      "panic-level-1",
+      "panic-level-2",
+      "panic-level-3",
+      "panic-level-4"
+    );
+  }
+
+  function paintBidCountdown(expiresAt) {
+    const remainingSeconds = Math.max(0, Math.ceil((expiresAt - Date.now()) / 1000));
+    elements.countdownSeconds.textContent = String(remainingSeconds);
+    elements.countdown.hidden = false;
+    elements.countdown.classList.toggle("is-urgent", remainingSeconds <= 4);
+    elements.stage.classList.remove(
+      "is-closing",
+      "closing-level-1",
+      "closing-level-2",
+      "closing-level-3",
+      "closing-level-4"
+    );
+    document.body.classList.remove(
+      "auction-panic",
+      "panic-level-1",
+      "panic-level-2",
+      "panic-level-3",
+      "panic-level-4"
+    );
+    if (remainingSeconds <= 4) {
+      const closingLevel = remainingSeconds <= 1 ? 4 : 5 - remainingSeconds;
+      elements.stage.classList.add("is-closing", `closing-level-${closingLevel}`);
+      document.body.classList.add("auction-panic", `panic-level-${closingLevel}`);
+    }
+  }
+
+  async function finalizeExpiredBid(roomCode, playerId, expiresAt) {
+    if (autoAdvanceInProgress) return;
+
+    const context = Fantasta.getCurrentContext();
+    if (!context || !context.participant.isHost || context.room.code !== roomCode) return;
+
+    const currentBid = context.room.currentBid || {};
+    if (
+      !context.room.currentPlayer ||
+      context.room.currentPlayer.id !== playerId ||
+      Number(currentBid.expiresAt) !== expiresAt
+    ) {
+      syncBidTimer(context);
+      return;
+    }
+
+    if (Date.now() < expiresAt) {
+      autoAssignTimeout = window.setTimeout(function () {
+        finalizeExpiredBid(roomCode, playerId, expiresAt);
+      }, expiresAt - Date.now() + 25);
+      return;
+    }
+
+    autoAdvanceInProgress = true;
+    const playerName = context.room.currentPlayer.nome;
+    const winner = context.room.participants.find(function (participant) {
+      return participant.id === currentBid.bidderId;
+    });
+
+    try {
+      Fantasta.assignPlayer(roomCode, context.participant.id);
+      if (!players.length) {
+        players = await Fantasta.fetchPlayers();
+      }
+
+      const updatedContext = Fantasta.getCurrentContext();
+      const nextPlayer = updatedContext
+        ? Fantasta.getRandomPlayer(updatedContext.room, players, playerId)
+        : null;
+
+      if (updatedContext && nextPlayer) {
+        Fantasta.selectPlayer(roomCode, updatedContext.participant.id, nextPlayer);
+      }
+
+      Fantasta.showToast(`${playerName} aggiudicato a ${winner ? winner.name : "chi ha offerto"}`);
+    } catch (error) {
+      clearBidTimer();
+      Fantasta.showToast(error.message);
+    } finally {
+      autoAdvanceInProgress = false;
+    }
+  }
+
+  function syncBidTimer(context) {
+    const room = context && context.room;
+    const currentBid = room && room.currentBid;
+    const expiresAt = Number(currentBid && currentBid.expiresAt);
+
+    if (!room || !room.currentPlayer || !currentBid.bidderId || !expiresAt) {
+      clearBidTimer();
+      return;
+    }
+
+    paintBidCountdown(expiresAt);
+    if (scheduledExpiry === expiresAt) return;
+
+    window.clearInterval(countdownInterval);
+    window.clearTimeout(autoAssignTimeout);
+    scheduledExpiry = expiresAt;
+    countdownInterval = window.setInterval(function () {
+      paintBidCountdown(expiresAt);
+    }, 200);
+
+    if (context.participant.isHost) {
+      autoAssignTimeout = window.setTimeout(function () {
+        finalizeExpiredBid(room.code, room.currentPlayer.id, expiresAt);
+      }, Math.max(0, expiresAt - Date.now()) + 25);
+    }
+  }
+
   function renderPlayer(player) {
     const isNewPlayer = renderedPlayerId !== player.id;
     elements.empty.hidden = true;
     elements.heading.hidden = false;
     elements.bidArea.hidden = false;
-    elements.club.textContent = player.squadra;
     elements.role.textContent = player.ruolo;
     elements.role.dataset.role = player.ruolo;
     elements.team.textContent = player.squadra;
@@ -59,6 +235,7 @@
 
     if (isNewPlayer) {
       renderedPlayerId = player.id;
+      renderTeamLogo(player.squadra);
       elements.image.hidden = true;
       elements.image.alt = `Ritratto di ${player.nome}`;
       elements.image.onload = function () {
@@ -78,7 +255,10 @@
     previousBidderId = null;
     elements.image.hidden = true;
     elements.image.removeAttribute("src");
-    elements.club.textContent = "Serie A";
+    if (elements.teamLogo) {
+      elements.teamLogo.hidden = true;
+      elements.teamLogo.removeAttribute("src");
+    }
     elements.heading.hidden = true;
     elements.bidArea.hidden = true;
     elements.empty.hidden = false;
@@ -102,7 +282,7 @@
         ? "La tua squadra sta vincendo"
         : `${bidder.name} sta vincendo`;
     } else {
-      elements.bidder.textContent = "Base d'asta · nessuna offerta";
+      elements.bidder.textContent = "Base d'asta 0 · nessuna offerta";
     }
 
     if (previousBidderId !== null && previousBidderId !== currentBid.bidderId) {
@@ -161,10 +341,9 @@
     }
 
     elements.draw.hidden = Boolean(room.currentPlayer);
-    elements.assign.hidden = !room.currentPlayer;
     elements.cancel.hidden = !room.currentPlayer;
     elements.next.hidden = !room.currentPlayer;
-    elements.assign.disabled = !room.currentBid.bidderId;
+    syncBidTimer(context);
     renderTicker(room);
   }
 
@@ -198,17 +377,6 @@
       elements.bidFeedback.textContent = "";
     } catch (error) {
       elements.bidFeedback.textContent = error.message;
-    }
-  }
-
-  function assignCurrentPlayer() {
-    const context = Fantasta.getCurrentContext();
-    if (!context) return;
-    try {
-      Fantasta.assignPlayer(context.room.code, context.participant.id);
-      Fantasta.showToast("Giocatore aggiudicato");
-    } catch (error) {
-      Fantasta.showToast(error.message);
     }
   }
 
@@ -280,7 +448,6 @@
       button.addEventListener("click", function () { placeIncrementBid(button.dataset.increment); });
     });
     elements.draw.addEventListener("click", function () { drawPlayer(); });
-    elements.assign.addEventListener("click", assignCurrentPlayer);
     elements.cancel.addEventListener("click", cancelCurrentPlayer);
     elements.next.addEventListener("click", moveToNextPlayer);
     elements.customOpen.addEventListener("click", openCustomBid);
@@ -295,4 +462,6 @@
       elements.ticker.textContent = "Avvia il sito con un server locale per caricare i giocatori.";
     }
   });
+
+  window.addEventListener("pagehide", clearBidTimer);
 })();

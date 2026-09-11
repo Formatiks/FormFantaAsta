@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="Crea una nuova asta FANTASTA.">
+  <title>Crea asta — FANTASTA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="create">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <header class="app-header page-container">
+    <a class="brand" href="index.html"><span class="brand-mark">F</span><span>FANTASTA</span></a>
+    <a class="button button-quiet header-action" href="index.html">Annulla</a>
+  </header>
+
+  <main class="page-container form-page">
+    <section class="page-intro">
+      <p class="eyebrow">Nuova asta</p>
+      <h1>Prepara la tua lega.</h1>
+      <p>Bastano pochi dettagli. Potrai invitare tutti con un codice da cinque caratteri.</p>
+    </section>
+
+    <form id="create-room-form" class="glass-card setup-form" novalidate>
+      <fieldset class="form-section">
+        <legend>Informazioni</legend>
+        <div class="field-grid two-columns">
+          <div class="field-group">
+            <label class="field-label" for="league-name">Nome lega</label>
+            <input class="input" id="league-name" name="leagueName" type="text" maxlength="36" placeholder="La lega del lunedì" required>
+          </div>
+          <div class="field-group">
+            <label class="field-label" for="host-team-name">La tua squadra</label>
+            <input class="input" id="host-team-name" name="hostTeamName" type="text" maxlength="28" placeholder="FC Sottobosco" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-section">
+        <legend>Regole economiche</legend>
+        <div class="field-grid two-columns">
+          <div class="field-group">
+            <label class="field-label" for="participants-count">Partecipanti</label>
+            <select class="input select-input" id="participants-count" name="participantsCount">
+              <option value="6">6 squadre</option>
+              <option value="8" selected>8 squadre</option>
+              <option value="10">10 squadre</option>
+              <option value="12">12 squadre</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label class="field-label" for="initial-credits">Crediti iniziali</label>
+            <input class="input" id="initial-credits" name="initialCredits" type="number" min="100" max="2000" step="50" value="500" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-section">
+        <legend>Composizione rosa</legend>
+        <p class="section-help">Numero massimo di giocatori per ruolo.</p>
+        <div class="role-settings">
+          <label class="role-setting role-p"><span class="role-badge">P</span><span>Portieri</span><input id="goalkeepers" name="goalkeepers" type="number" min="1" max="6" value="3" required></label>
+          <label class="role-setting role-d"><span class="role-badge">D</span><span>Difensori</span><input id="defenders" name="defenders" type="number" min="1" max="12" value="8" required></label>
+          <label class="role-setting role-c"><span class="role-badge">C</span><span>Centrocampisti</span><input id="midfielders" name="midfielders" type="number" min="1" max="12" value="8" required></label>
+          <label class="role-setting role-a"><span class="role-badge">A</span><span>Attaccanti</span><input id="forwards" name="forwards" type="number" min="1" max="10" value="6" required></label>
+        </div>
+      </fieldset>
+
+      <p class="form-error" id="create-error" role="alert"></p>
+      <button class="button button-primary button-large button-full" type="submit">Crea stanza <span aria-hidden="true">→</span></button>
+      <p class="privacy-note">I dati restano salvati solo su questo browser.</p>
+    </form>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

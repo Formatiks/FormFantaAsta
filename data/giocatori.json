@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nome": "Elia Moretti",
+    "squadra": "Inter",
+    "ruolo": "A",
+    "quotazione": 35,
+    "foto": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 2,
+    "nome": "Tommaso Riva",
+    "squadra": "Milan",
+    "ruolo": "C",
+    "quotazione": 24,
+    "foto": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 3,
+    "nome": "Nicolò Serra",
+    "squadra": "Juventus",
+    "ruolo": "D",
+    "quotazione": 18,
+    "foto": "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 4,
+    "nome": "Andrea Bellini",
+    "squadra": "Napoli",
+    "ruolo": "A",
+    "quotazione": 31,
+    "foto": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 5,
+    "nome": "Lorenzo Greco",
+    "squadra": "Roma",
+    "ruolo": "C",
+    "quotazione": 22,
+    "foto": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 6,
+    "nome": "Matteo Ferri",
+    "squadra": "Lazio",
+    "ruolo": "P",
+    "quotazione": 13,
+    "foto": "https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 7,
+    "nome": "Riccardo De Luca",
+    "squadra": "Atalanta",
+    "ruolo": "A",
+    "quotazione": 28,
+    "foto": "https://images.unsplash.com/photo-1600679472829-3044539ce8ed?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 8,
+    "nome": "Samuele Conti",
+    "squadra": "Bologna",
+    "ruolo": "D",
+    "quotazione": 16,
+    "foto": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 9,
+    "nome": "Federico Villa",
+    "squadra": "Fiorentina",
+    "ruolo": "C",
+    "quotazione": 20,
+    "foto": "https://images.unsplash.com/photo-1624880357913-a8539238245b?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 10,
+    "nome": "Davide Fontana",
+    "squadra": "Torino",
+    "ruolo": "P",
+    "quotazione": 10,
+    "foto": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 11,
+    "nome": "Gabriele Leoni",
+    "squadra": "Udinese",
+    "ruolo": "D",
+    "quotazione": 12,
+    "foto": "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 12,
+    "nome": "Pietro Marchetti",
+    "squadra": "Genoa",
+    "ruolo": "A",
+    "quotazione": 19,
+    "foto": "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 13,
+    "nome": "Jacopo Caruso",
+    "squadra": "Lecce",
+    "ruolo": "C",
+    "quotazione": 14,
+    "foto": "https://images.unsplash.com/photo-1598881034666-6d3443d4b1bc?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 14,
+    "nome": "Edoardo Neri",
+    "squadra": "Parma",
+    "ruolo": "D",
+    "quotazione": 11,
+    "foto": "https://images.unsplash.com/photo-1577223625816-7546f13df25d?auto=format&fit=crop&w=1200&q=85"
+  },
+  {
+    "id": 15,
+    "nome": "Cristian Romano",
+    "squadra": "Como",
+    "ruolo": "A",
+    "quotazione": 26,
+    "foto": "https://images.unsplash.com/photo-1570498839593-e565b39455fc?auto=format&fit=crop&w=1200&q=85"
+  }
+]

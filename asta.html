@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f5f7">
+  <title>Asta live — FANTASTA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="auction">
+  <header class="auction-header page-container">
+    <a class="brand" href="index.html"><span class="brand-mark">F</span><span>FANTASTA</span></a>
+    <div class="auction-room-meta">
+      <span id="auction-league">Lega</span>
+      <strong id="auction-code">-----</strong>
+    </div>
+    <div class="credit-chip"><span>Crediti</span><strong id="my-credits">—</strong></div>
+  </header>
+
+  <main class="page-container auction-page">
+    <section class="auction-stage glass-card" id="auction-stage">
+      <div class="player-visual" id="player-visual">
+        <img id="player-image" alt="" hidden>
+        <div class="player-fallback" id="player-fallback" aria-hidden="true"><span>F</span></div>
+        <div class="visual-sheen" aria-hidden="true"></div>
+        <span class="player-club-chip" id="player-club">Serie A</span>
+      </div>
+
+      <div class="auction-details">
+        <div class="player-heading" id="player-heading" hidden>
+          <span class="role-tag" id="player-role">—</span>
+          <p id="player-team">—</p>
+          <h1 id="player-name">—</h1>
+          <p class="quotation" id="player-quotation">Quotazione —</p>
+        </div>
+
+        <div class="empty-auction" id="empty-auction">
+          <span class="empty-ball" aria-hidden="true">⚽</span>
+          <p class="eyebrow">Tavolo libero</p>
+          <h1>Pronti per il prossimo nome.</h1>
+          <p id="empty-message">L'host estrarrà un calciatore tra poco.</p>
+        </div>
+
+        <div class="bid-area" id="bid-area" hidden>
+          <p class="eyebrow">Offerta attuale</p>
+          <div class="price-display"><strong id="current-price">0</strong><span>crediti</span></div>
+          <p class="highest-bidder" id="highest-bidder">Nessuna offerta</p>
+
+          <div class="quick-bids" aria-label="Offerte rapide">
+            <button class="bid-button" type="button" data-increment="1"><span>+</span>1</button>
+            <button class="bid-button" type="button" data-increment="5"><span>+</span>5</button>
+            <button class="bid-button" type="button" data-increment="10"><span>+</span>10</button>
+          </div>
+          <button class="button button-secondary button-full" id="custom-bid-open" type="button">Offerta personalizzata</button>
+          <p class="bid-feedback" id="bid-feedback" role="status"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="host-panel glass-card" id="host-panel" hidden>
+      <div><p class="eyebrow">Controlli host</p><h2>Regia dell'asta</h2></div>
+      <div class="host-actions">
+        <button class="button button-primary" id="draw-player" type="button">Estrai giocatore</button>
+        <button class="button button-success" id="assign-player" type="button">Aggiudica</button>
+        <button class="button button-secondary" id="cancel-auction" type="button">Annulla asta</button>
+        <button class="button button-dark" id="next-player" type="button">Prossimo giocatore</button>
+      </div>
+    </section>
+
+    <section class="auction-ticker" aria-label="Ultima operazione">
+      <span class="live-dot"></span><p id="auction-ticker">Asta sincronizzata in tempo reale su questo browser.</p>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navigazione principale">
+    <a class="active" href="asta.html"><span aria-hidden="true">●</span>Asta</a>
+    <a href="rosa.html"><span aria-hidden="true">▦</span>Rose</a>
+    <a href="stanza.html"><span aria-hidden="true">⌁</span>Lega</a>
+  </nav>
+
+  <dialog class="custom-dialog" id="custom-bid-dialog">
+    <form method="dialog" id="custom-bid-form">
+      <button class="dialog-close" value="cancel" aria-label="Chiudi" type="submit">×</button>
+      <p class="eyebrow">La tua offerta</p>
+      <h2>Quanto vuoi offrire?</h2>
+      <label class="field-label" for="custom-bid-amount">Crediti</label>
+      <input class="input custom-bid-input" id="custom-bid-amount" type="number" min="1" inputmode="numeric" required>
+      <p class="form-error" id="custom-bid-error" role="alert"></p>
+      <button class="button button-primary button-full" value="default" type="submit">Fai offerta</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js" defer></script>
+  <script src="js/asta.js" defer></script>
+</body>
+</html>

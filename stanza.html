@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f5f7">
+  <title>Lobby — FANTASTA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="room">
+  <header class="app-header page-container">
+    <a class="brand" href="index.html"><span class="brand-mark">F</span><span>FANTASTA</span></a>
+    <span class="connection-chip"><span class="live-dot"></span> Lobby live</span>
+  </header>
+
+  <main class="page-container room-page">
+    <section class="page-intro compact-intro">
+      <p class="eyebrow">Sala d'attesa</p>
+      <h1 id="league-name">La tua lega</h1>
+      <p>Invita gli altri fantallenatori. L'asta può partire quando siete pronti.</p>
+    </section>
+
+    <div class="room-layout">
+      <section class="glass-card code-card" aria-labelledby="room-code-label">
+        <p class="eyebrow" id="room-code-label">Codice stanza</p>
+        <button class="room-code-display" id="copy-code" type="button" aria-label="Copia codice stanza">
+          <span id="room-code">-----</span>
+          <span class="copy-hint">Tocca per copiare</span>
+        </button>
+        <div class="share-actions">
+          <button class="button button-secondary button-full" id="copy-code-button" type="button">Copia codice</button>
+          <button class="button button-primary button-full" id="share-room" type="button">Condividi invito</button>
+        </div>
+      </section>
+
+      <section class="glass-card participants-card" aria-labelledby="participants-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">Squadre</p><h2 id="participants-title">Partecipanti</h2></div>
+          <span class="counter-pill" id="participants-counter">0 / 0</span>
+        </div>
+        <ul class="participant-list" id="participant-list"></ul>
+      </section>
+
+      <aside class="glass-card room-control-card">
+        <div class="room-ready-visual" aria-hidden="true"><span>⚽</span></div>
+        <div id="host-controls" hidden>
+          <p class="eyebrow">Sei l'host</p>
+          <h2>Tutto pronto?</h2>
+          <p>Puoi iniziare anche prima che la stanza sia piena.</p>
+          <button class="button button-dark button-large button-full" id="start-auction" type="button">Inizia asta <span aria-hidden="true">→</span></button>
+        </div>
+        <div id="guest-waiting" hidden>
+          <p class="eyebrow">Quasi pronti</p>
+          <h2>In attesa dell'host.</h2>
+          <p>La schermata si aggiornerà automaticamente quando inizierà l'asta.</p>
+          <div class="waiting-dots" aria-label="In attesa"><span></span><span></span><span></span></div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="room-rules" id="room-rules" aria-label="Regole della lega"></section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js" defer></script>
+  <script src="js/stanza.js" defer></script>
+</body>
+</html>

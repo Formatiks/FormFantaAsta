@@ -107,7 +107,6 @@
       "closing-level-4"
     );
     document.body.classList.remove(
-      "auction-panic",
       "panic-level-1",
       "panic-level-2",
       "panic-level-3",
@@ -128,7 +127,6 @@
       "closing-level-4"
     );
     document.body.classList.remove(
-      "auction-panic",
       "panic-level-1",
       "panic-level-2",
       "panic-level-3",
@@ -137,7 +135,7 @@
     if (remainingSeconds <= 4) {
       const closingLevel = remainingSeconds <= 1 ? 4 : 5 - remainingSeconds;
       elements.stage.classList.add("is-closing", `closing-level-${closingLevel}`);
-      document.body.classList.add("auction-panic", `panic-level-${closingLevel}`);
+      document.body.classList.add(`panic-level-${closingLevel}`);
     }
   }
 

@@ -18,7 +18,7 @@
   }
 
   function friendlyError(error) {
-    const code = error && error.code ? error.code : "";
+    const code = String(error && error.code ? error.code : "").toLowerCase();
     if (code.includes("operation-not-allowed")) {
       return new Error("Attiva l'accesso anonimo in Firebase Authentication.");
     }
@@ -91,18 +91,21 @@
         updateRoom: async function (code, updater) {
           let operationError = null;
           try {
+            const roomReference = getRoomReference(code);
+            const initialSnapshot = await databaseSdk.get(roomReference);
+            if (!initialSnapshot.exists()) {
+              throw new Error("La stanza non esiste più.");
+            }
+            const initialRoom = clone(initialSnapshot.val());
             const result = await databaseSdk.runTransaction(
-              getRoomReference(code),
+              roomReference,
               function (currentRoom) {
                 operationError = null;
-                if (currentRoom === null) {
-                  operationError = new Error("La stanza non esiste più.");
-                  return undefined;
-                }
 
                 try {
-                  const updatedRoom = updater(clone(currentRoom));
-                  return updatedRoom === undefined ? clone(currentRoom) : clone(updatedRoom);
+                  const transactionRoom = currentRoom === null ? initialRoom : currentRoom;
+                  const updatedRoom = updater(clone(transactionRoom));
+                  return updatedRoom === undefined ? clone(transactionRoom) : clone(updatedRoom);
                 } catch (error) {
                   operationError = error;
                   return undefined;

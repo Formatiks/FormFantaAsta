@@ -116,7 +116,7 @@
   }
 
   function paintBidCountdown(expiresAt) {
-    const remainingSeconds = Math.max(0, Math.ceil((expiresAt - Date.now()) / 1000));
+    const remainingSeconds = Math.max(0, Math.ceil((expiresAt - Fantasta.getServerNow()) / 1000));
     elements.countdownSeconds.textContent = String(remainingSeconds);
     elements.countdown.hidden = false;
     elements.countdown.classList.toggle("is-urgent", remainingSeconds <= 4);
@@ -157,10 +157,10 @@
       return;
     }
 
-    if (Date.now() < expiresAt) {
+    if (Fantasta.getServerNow() < expiresAt) {
       autoAssignTimeout = window.setTimeout(function () {
         finalizeExpiredBid(roomCode, playerId, expiresAt);
-      }, expiresAt - Date.now() + 25);
+      }, expiresAt - Fantasta.getServerNow() + 25);
       return;
     }
 
@@ -171,7 +171,7 @@
     });
 
     try {
-      Fantasta.assignPlayer(roomCode, context.participant.id);
+      await Fantasta.assignPlayer(roomCode, context.participant.id, expiresAt);
       if (!players.length) {
         players = await Fantasta.fetchPlayers();
       }
@@ -182,13 +182,16 @@
         : null;
 
       if (updatedContext && nextPlayer) {
-        Fantasta.selectPlayer(roomCode, updatedContext.participant.id, nextPlayer);
+        await Fantasta.selectPlayer(roomCode, updatedContext.participant.id, nextPlayer);
       }
 
       Fantasta.showToast(`${playerName} aggiudicato a ${winner ? winner.name : "chi ha offerto"}`);
     } catch (error) {
       clearBidTimer();
       Fantasta.showToast(error.message);
+      window.setTimeout(function () {
+        syncBidTimer(Fantasta.getCurrentContext());
+      }, 150);
     } finally {
       autoAdvanceInProgress = false;
     }
@@ -217,7 +220,7 @@
     if (context.participant.isHost) {
       autoAssignTimeout = window.setTimeout(function () {
         finalizeExpiredBid(room.code, room.currentPlayer.id, expiresAt);
-      }, Math.max(0, expiresAt - Date.now()) + 25);
+      }, Math.max(0, expiresAt - Fantasta.getServerNow()) + 25);
     }
   }
 
@@ -347,7 +350,7 @@
     renderTicker(room);
   }
 
-  function drawPlayer(excludedId) {
+  async function drawPlayer(excludedId) {
     const context = Fantasta.getCurrentContext();
     if (!context) return;
     if (!players.length) {
@@ -362,36 +365,36 @@
     }
 
     try {
-      Fantasta.selectPlayer(context.room.code, context.participant.id, player);
+      await Fantasta.selectPlayer(context.room.code, context.participant.id, player);
     } catch (error) {
       Fantasta.showToast(error.message);
     }
   }
 
-  function placeIncrementBid(increment) {
+  async function placeIncrementBid(increment) {
     const context = Fantasta.getCurrentContext();
     if (!context || !context.room.currentPlayer) return;
     const amount = context.room.currentBid.amount + Number(increment);
     try {
-      Fantasta.placeBid(context.room.code, context.participant.id, amount);
+      await Fantasta.placeBid(context.room.code, context.participant.id, amount);
       elements.bidFeedback.textContent = "";
     } catch (error) {
       elements.bidFeedback.textContent = error.message;
     }
   }
 
-  function cancelCurrentPlayer() {
+  async function cancelCurrentPlayer() {
     const context = Fantasta.getCurrentContext();
     if (!context) return;
     try {
-      Fantasta.cancelCurrentAuction(context.room.code, context.participant.id);
+      await Fantasta.cancelCurrentAuction(context.room.code, context.participant.id);
       Fantasta.showToast("Chiamata annullata");
     } catch (error) {
       Fantasta.showToast(error.message);
     }
   }
 
-  function moveToNextPlayer() {
+  async function moveToNextPlayer() {
     const context = Fantasta.getCurrentContext();
     if (!context || !context.room.currentPlayer) return;
     const previousPlayerId = context.room.currentPlayer.id;
@@ -402,8 +405,8 @@
     }
 
     try {
-      Fantasta.cancelCurrentAuction(context.room.code, context.participant.id);
-      Fantasta.selectPlayer(context.room.code, context.participant.id, nextPlayer);
+      await Fantasta.cancelCurrentAuction(context.room.code, context.participant.id);
+      await Fantasta.selectPlayer(context.room.code, context.participant.id, nextPlayer);
     } catch (error) {
       Fantasta.showToast(error.message);
     }
@@ -420,7 +423,7 @@
     elements.customAmount.select();
   }
 
-  function submitCustomBid(event) {
+  async function submitCustomBid(event) {
     event.preventDefault();
     if (event.submitter && event.submitter.value === "cancel") {
       elements.customDialog.close();
@@ -430,7 +433,7 @@
     const context = Fantasta.getCurrentContext();
     if (!context) return;
     try {
-      Fantasta.placeBid(context.room.code, context.participant.id, Number(elements.customAmount.value));
+      await Fantasta.placeBid(context.room.code, context.participant.id, Number(elements.customAmount.value));
       elements.customDialog.close();
       elements.customError.textContent = "";
     } catch (error) {
@@ -439,6 +442,7 @@
   }
 
   window.addEventListener("DOMContentLoaded", async function () {
+    await Fantasta.initialize();
     const context = Fantasta.requireCurrentContext();
     if (!context) return;
     render(context);

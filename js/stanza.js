@@ -127,18 +127,19 @@
     }
   }
 
-  function beginAuction() {
+  async function beginAuction() {
     const context = Fantasta.getCurrentContext();
     if (!context) return;
     try {
-      Fantasta.startAuction(context.room.code, context.participant.id);
+      await Fantasta.startAuction(context.room.code, context.participant.id);
       window.location.href = "asta.html";
     } catch (error) {
       Fantasta.showToast(error.message);
     }
   }
 
-  window.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("DOMContentLoaded", async function () {
+    await Fantasta.initialize();
     const context = Fantasta.requireCurrentContext();
     if (!context) return;
     render(context);

@@ -1,0 +1,13 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "rooms": {
+      "$code": {
+        ".read": "auth != null && (!data.exists() || data.child('status').val() == 'lobby' || data.child('members').child(auth.uid).val() == true)",
+        ".write": "auth != null && ((!data.exists() && newData.child('hostUid').val() == auth.uid && newData.child('members').child(auth.uid).val() == true) || data.child('members').child(auth.uid).val() == true || (data.child('status').val() == 'lobby' && newData.child('members').child(auth.uid).val() == true))",
+        ".validate": "newData.exists() && newData.hasChildren(['code', 'leagueName', 'status', 'hostId', 'hostUid', 'members', 'settings', 'participants', 'currentBid']) && newData.child('code').val() == $code && (!data.exists() || (newData.child('hostUid').val() == data.child('hostUid').val() && newData.child('hostId').val() == data.child('hostId').val()))"
+      }
+    }
+  }
+}

@@ -107,7 +107,8 @@
     });
   }
 
-  window.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("DOMContentLoaded", async function () {
+    await Fantasta.initialize();
     const context = Fantasta.requireCurrentContext();
     if (!context) return;
     render(context);

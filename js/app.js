@@ -6,6 +6,9 @@
   const ROOM_EVENT = "fantasta:room-change";
   const ROOM_CODE_CHARACTERS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
   const BID_DURATION_MS = 7000;
+  let firebaseBackend = null;
+  let firebaseInitializationError = null;
+  let initializationPromise = null;
   const ROLE_NAMES = {
     P: "Portieri",
     D: "Difensori",
@@ -21,6 +24,46 @@
 
   function clone(value) {
     return value === undefined ? undefined : JSON.parse(JSON.stringify(value));
+  }
+
+  function normalizeList(value) {
+    if (Array.isArray(value)) {
+      return value.filter(function (item) { return item !== null && item !== undefined; });
+    }
+    if (value && typeof value === "object") {
+      return Object.keys(value).sort(function (left, right) {
+        return Number(left) - Number(right);
+      }).map(function (key) {
+        return value[key];
+      }).filter(function (item) {
+        return item !== null && item !== undefined;
+      });
+    }
+    return [];
+  }
+
+  function normalizeRoom(room) {
+    if (!room || typeof room !== "object") return null;
+    const normalizedRoom = clone(room);
+    normalizedRoom.participants = normalizeList(normalizedRoom.participants);
+    normalizedRoom.participants.forEach(function (participant) {
+      participant.roster = participant.roster && typeof participant.roster === "object"
+        ? participant.roster
+        : {};
+      Object.keys(ROLE_NAMES).forEach(function (role) {
+        participant.roster[role] = normalizeList(participant.roster[role]);
+      });
+    });
+    normalizedRoom.members = normalizedRoom.members && typeof normalizedRoom.members === "object"
+      ? normalizedRoom.members
+      : {};
+    normalizedRoom.assignedPlayerIds = normalizeList(normalizedRoom.assignedPlayerIds);
+    normalizedRoom.auctionLog = normalizeList(normalizedRoom.auctionLog);
+    normalizedRoom.currentBid = Object.assign(
+      { amount: 0, bidderId: null, expiresAt: null },
+      normalizedRoom.currentBid || {}
+    );
+    return normalizedRoom;
   }
 
   function createId() {
@@ -44,9 +87,73 @@
     }
   }
 
-  function writeRooms(rooms, changedCode) {
+  function writeRooms(rooms, changedCode, notify) {
     localStorage.setItem(ROOMS_KEY, JSON.stringify(rooms));
-    window.dispatchEvent(new CustomEvent(ROOM_EVENT, { detail: { code: changedCode } }));
+    if (notify !== false) {
+      window.dispatchEvent(new CustomEvent(ROOM_EVENT, { detail: { code: changedCode } }));
+    }
+  }
+
+  function cacheRoom(room, notify) {
+    if (!room || !room.code) return null;
+    const normalizedRoom = normalizeRoom(room);
+    const rooms = readRooms();
+    rooms[normalizedRoom.code] = normalizedRoom;
+    writeRooms(rooms, normalizedRoom.code, notify);
+    return clone(normalizedRoom);
+  }
+
+  function removeCachedRoom(code, notify) {
+    const normalizedCode = normalizeCode(code);
+    const rooms = readRooms();
+    delete rooms[normalizedCode];
+    writeRooms(rooms, normalizedCode, notify);
+  }
+
+  function initialize() {
+    if (initializationPromise) return initializationPromise;
+
+    initializationPromise = (async function () {
+      if (!window.FantastaFirebaseReady) return null;
+      const result = await window.FantastaFirebaseReady;
+      if (!result || !result.enabled) {
+        firebaseInitializationError = result && result.error
+          ? result.error
+          : new Error("Firebase non disponibile.");
+        return null;
+      }
+
+      firebaseBackend = result;
+      const session = getSession();
+      if (session) {
+        try {
+          const remoteRoom = await firebaseBackend.getRoom(session.code);
+          if (remoteRoom) {
+            cacheRoom(remoteRoom, false);
+          } else {
+            removeCachedRoom(session.code, false);
+          }
+        } catch (error) {
+          firebaseInitializationError = error;
+        }
+      }
+
+      return firebaseBackend;
+    })();
+
+    return initializationPromise;
+  }
+
+  async function requireFirebase() {
+    await initialize();
+    if (!firebaseBackend) {
+      throw firebaseInitializationError || new Error("Firebase non disponibile.");
+    }
+    return firebaseBackend;
+  }
+
+  function getServerNow() {
+    return firebaseBackend ? firebaseBackend.now() : Date.now();
   }
 
   function generateRoomCode() {
@@ -64,36 +171,33 @@
 
   function getRoom(code) {
     const room = readRooms()[normalizeCode(code)];
-    return room ? clone(room) : null;
+    return room ? normalizeRoom(room) : null;
   }
 
-  function saveRoom(room) {
+  async function saveRoom(room) {
     if (!room || !room.code) {
       throw new Error("Stanza non valida.");
     }
 
-    const rooms = readRooms();
-    room.updatedAt = new Date().toISOString();
-    rooms[room.code] = clone(room);
-    writeRooms(rooms, room.code);
-    return clone(room);
+    const backend = await requireFirebase();
+    const normalizedRoom = normalizeRoom(room);
+    normalizedRoom.updatedAt = new Date(getServerNow()).toISOString();
+    const savedRoom = await backend.createRoom(normalizedRoom);
+    if (!savedRoom) return null;
+    return cacheRoom(savedRoom);
   }
 
-  function updateRoom(code, updater) {
-    const rooms = readRooms();
+  async function updateRoom(code, updater) {
     const normalizedCode = normalizeCode(code);
-    const room = rooms[normalizedCode];
-
-    if (!room) {
-      throw new Error("La stanza non esiste più.");
-    }
-
-    const updatedRoom = updater(clone(room)) || room;
-    updatedRoom.revision = (room.revision || 0) + 1;
-    updatedRoom.updatedAt = new Date().toISOString();
-    rooms[normalizedCode] = clone(updatedRoom);
-    writeRooms(rooms, normalizedCode);
-    return clone(updatedRoom);
+    const backend = await requireFirebase();
+    const updatedRoom = await backend.updateRoom(normalizedCode, function (room) {
+      const currentRoom = normalizeRoom(room);
+      const nextRoom = normalizeRoom(updater(clone(currentRoom)) || currentRoom);
+      nextRoom.revision = (currentRoom.revision || 0) + 1;
+      nextRoom.updatedAt = new Date(getServerNow()).toISOString();
+      return nextRoom;
+    });
+    return cacheRoom(updatedRoom);
   }
 
   function setSession(code, participantId) {
@@ -150,18 +254,20 @@
     return cleaned;
   }
 
-  function createParticipant(name, credits, isHost) {
+  function createParticipant(name, credits, isHost, ownerUid) {
     return {
       id: createId(),
+      ownerUid: ownerUid,
       name: name,
       credits: credits,
       isHost: Boolean(isHost),
-      joinedAt: new Date().toISOString(),
+      joinedAt: new Date(getServerNow()).toISOString(),
       roster: { P: [], D: [], C: [], A: [] }
     };
   }
 
-  function createRoom(configuration) {
+  async function createRoom(configuration) {
+    const backend = await requireFirebase();
     const leagueName = cleanName(configuration.leagueName, "Il nome della lega");
     const hostTeamName = cleanName(configuration.hostTeamName, "Il nome della squadra");
     const participantsCount = Number(configuration.participantsCount);
@@ -185,55 +291,75 @@
       throw new Error("La composizione della rosa non è valida.");
     }
 
-    const host = createParticipant(hostTeamName, initialCredits, true);
-    const now = new Date().toISOString();
-    const room = {
-      code: generateRoomCode(),
-      leagueName: leagueName,
-      status: "lobby",
-      createdAt: now,
-      updatedAt: now,
-      revision: 1,
-      hostId: host.id,
-      settings: Object.assign({
-        participantsCount: participantsCount,
-        initialCredits: initialCredits
-      }, rosterLimits),
-      participants: [host],
-      currentPlayer: null,
-      currentBid: { amount: 0, bidderId: null, expiresAt: null },
-      assignedPlayerIds: [],
-      auctionLog: []
-    };
+    const host = createParticipant(hostTeamName, initialCredits, true, backend.uid);
+    let savedRoom = null;
 
-    saveRoom(room);
-    setSession(room.code, host.id);
-    return clone(room);
+    for (let attempt = 0; attempt < 12 && !savedRoom; attempt += 1) {
+      const now = new Date(getServerNow()).toISOString();
+      const room = {
+        code: generateRoomCode(),
+        leagueName: leagueName,
+        status: "lobby",
+        createdAt: now,
+        updatedAt: now,
+        revision: 1,
+        hostId: host.id,
+        hostUid: backend.uid,
+        members: { [backend.uid]: true },
+        settings: Object.assign({
+          participantsCount: participantsCount,
+          initialCredits: initialCredits
+        }, rosterLimits),
+        participants: [host],
+        currentPlayer: null,
+        currentBid: { amount: 0, bidderId: null, expiresAt: null },
+        assignedPlayerIds: [],
+        auctionLog: []
+      };
+      savedRoom = await saveRoom(room);
+    }
+
+    if (!savedRoom) {
+      throw new Error("Non è stato possibile generare un codice stanza. Riprova.");
+    }
+
+    setSession(savedRoom.code, host.id);
+    return clone(savedRoom);
   }
 
-  function joinRoom(code, teamName) {
+  async function joinRoom(code, teamName) {
+    const backend = await requireFirebase();
     const normalizedCode = normalizeCode(code);
     const cleanedTeamName = cleanName(teamName, "Il nome della squadra");
-    const existingRoom = getRoom(normalizedCode);
+    const existingRoom = await backend.getRoom(normalizedCode);
 
     if (!existingRoom) {
       throw new Error("Codice stanza non trovato.");
     }
-    if (existingRoom.status !== "lobby") {
-      throw new Error("Questa asta è già iniziata.");
-    }
-    if (existingRoom.participants.length >= existingRoom.settings.participantsCount) {
-      throw new Error("La stanza è al completo.");
-    }
-    if (existingRoom.participants.some(function (participant) {
-      return participant.name.toLowerCase() === cleanedTeamName.toLowerCase();
-    })) {
-      throw new Error("Questo nome squadra è già in uso.");
-    }
+    cacheRoom(existingRoom, false);
 
-    const participant = createParticipant(cleanedTeamName, existingRoom.settings.initialCredits, false);
-    const room = updateRoom(normalizedCode, function (draft) {
+    const participant = createParticipant(
+      cleanedTeamName,
+      existingRoom.settings.initialCredits,
+      false,
+      backend.uid
+    );
+    const room = await updateRoom(normalizedCode, function (draft) {
+      if (draft.status !== "lobby") {
+        throw new Error("Questa asta è già iniziata.");
+      }
+      if (draft.participants.length >= draft.settings.participantsCount) {
+        throw new Error("La stanza è al completo.");
+      }
+      if (draft.participants.some(function (item) {
+        return item.name.toLowerCase() === cleanedTeamName.toLowerCase();
+      })) {
+        throw new Error("Questo nome squadra è già in uso.");
+      }
+
       draft.participants.push(participant);
+      draft.members = draft.members || {};
+      draft.members[backend.uid] = true;
       return draft;
     });
 
@@ -254,7 +380,7 @@
         throw new Error("L'asta è già iniziata.");
       }
       room.status = "auction";
-      room.auctionLog.unshift({ type: "start", at: new Date().toISOString() });
+      room.auctionLog.unshift({ type: "start", at: new Date(getServerNow()).toISOString() });
       return room;
     });
   }
@@ -297,7 +423,7 @@
       }
       room.currentPlayer = clone(player);
       room.currentBid = { amount: 0, bidderId: null, expiresAt: null };
-      room.auctionLog.unshift({ type: "draw", playerName: player.nome, at: new Date().toISOString() });
+      room.auctionLog.unshift({ type: "draw", playerName: player.nome, at: new Date(getServerNow()).toISOString() });
       room.auctionLog = room.auctionLog.slice(0, 30);
       return room;
     });
@@ -335,25 +461,31 @@
       room.currentBid = {
         amount: bidAmount,
         bidderId: participantId,
-        expiresAt: Date.now() + BID_DURATION_MS
+        expiresAt: getServerNow() + BID_DURATION_MS
       };
       room.auctionLog.unshift({
         type: "bid",
         participantName: participant.name,
         amount: bidAmount,
         playerName: room.currentPlayer.nome,
-        at: new Date().toISOString()
+        at: new Date(getServerNow()).toISOString()
       });
       room.auctionLog = room.auctionLog.slice(0, 30);
       return room;
     });
   }
 
-  function assignPlayer(code, participantId) {
+  function assignPlayer(code, participantId, expectedExpiresAt) {
     return updateRoom(code, function (room) {
       assertHost(room, participantId);
       if (!room.currentPlayer || !room.currentBid.bidderId) {
         throw new Error("Serve almeno un'offerta prima dell'aggiudicazione.");
+      }
+      if (
+        Number(expectedExpiresAt) !== Number(room.currentBid.expiresAt) ||
+        getServerNow() < Number(room.currentBid.expiresAt)
+      ) {
+        throw new Error("L'offerta è cambiata: il conto alla rovescia riparte.");
       }
 
       const winner = room.participants.find(function (item) { return item.id === room.currentBid.bidderId; });
@@ -380,7 +512,7 @@
         participantName: winner.name,
         playerName: room.currentPlayer.nome,
         amount: room.currentBid.amount,
-        at: new Date().toISOString()
+        at: new Date(getServerNow()).toISOString()
       });
       room.auctionLog = room.auctionLog.slice(0, 30);
       room.currentPlayer = null;
@@ -396,7 +528,7 @@
         room.auctionLog.unshift({
           type: "cancel",
           playerName: room.currentPlayer.nome,
-          at: new Date().toISOString()
+          at: new Date(getServerNow()).toISOString()
         });
       }
       room.currentPlayer = null;
@@ -428,10 +560,28 @@
   }
 
   function listenForRoomChanges(callback) {
+    const session = getSession();
+    if (firebaseBackend && session) {
+      return firebaseBackend.listenRoom(
+        session.code,
+        function (room) {
+          if (room) {
+            cacheRoom(room, false);
+          } else {
+            removeCachedRoom(session.code, false);
+          }
+          callback(getCurrentContext());
+        },
+        function (error) {
+          showToast(error.message);
+        }
+      );
+    }
+
     function handleChange(event) {
-      const session = getSession();
-      if (!session) return;
-      if (!event.detail || !event.detail.code || event.detail.code === session.code) {
+      const currentSession = getSession();
+      if (!currentSession) return;
+      if (!event.detail || !event.detail.code || event.detail.code === currentSession.code) {
         callback(getCurrentContext());
       }
     }
@@ -442,6 +592,10 @@
         callback(getCurrentContext());
       }
     });
+
+    return function () {
+      window.removeEventListener(ROOM_EVENT, handleChange);
+    };
   }
 
   function initHome() {
@@ -455,14 +609,17 @@
       errorElement.textContent = "";
     });
 
-    form.addEventListener("submit", function (event) {
+    form.addEventListener("submit", async function (event) {
       event.preventDefault();
       errorElement.textContent = "";
+      const submitButton = form.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
       try {
-        joinRoom(codeInput.value, document.getElementById("team-name").value);
+        await joinRoom(codeInput.value, document.getElementById("team-name").value);
         window.location.href = "stanza.html";
       } catch (error) {
         errorElement.textContent = error.message;
+        submitButton.disabled = false;
       }
     });
   }
@@ -472,20 +629,24 @@
     if (!form) return;
     const errorElement = document.getElementById("create-error");
 
-    form.addEventListener("submit", function (event) {
+    form.addEventListener("submit", async function (event) {
       event.preventDefault();
       errorElement.textContent = "";
       const formData = new FormData(form);
+      const submitButton = form.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
       try {
-        createRoom(Object.fromEntries(formData.entries()));
+        await createRoom(Object.fromEntries(formData.entries()));
         window.location.href = "stanza.html";
       } catch (error) {
         errorElement.textContent = error.message;
+        submitButton.disabled = false;
       }
     });
   }
 
   window.addEventListener("DOMContentLoaded", function () {
+    initialize();
     initHome();
     initCreate();
   });
@@ -495,6 +656,9 @@
     BID_DURATION_MS: BID_DURATION_MS,
     ROLE_NAMES: ROLE_NAMES,
     ROLE_LIMIT_KEYS: ROLE_LIMIT_KEYS,
+    initialize: initialize,
+    isRealtimeEnabled: function () { return Boolean(firebaseBackend); },
+    getServerNow: getServerNow,
     normalizeCode: normalizeCode,
     createRoom: createRoom,
     joinRoom: joinRoom,
